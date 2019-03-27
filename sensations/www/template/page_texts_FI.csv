@@ -1,0 +1,95 @@
+Key|Finnish
+welcome|Kysely tuntemuksista kehossa ja mielessä
+welcome_text|Tässä kokeessa tutkimme sitä, kuinka paljon erilaiset tuntemukset, olotilat ja tapahtumat  koetaan mielessä ja kehossa. Sinulle esitetään lista erilaisia tuntemuksia ja olotiloja. Tehtävänäsi on arvioida kuinka voimakkaasti kukin näistä tuntuu kehossasi ja mielessäsi. Huomaa että voit vastata kokevasi samaa asiaa sekä kehossa että mielessä. 
+<br><br>
+Tämän lisäksi sinua pyydetään arvioimaan, kuinka miellyttävältä nämä tuntemukset ja olotilat tuntuvat, kuinka usein koet niitä, ja kuinka paljon voit itse vaikuttaa niihin. Lomakkeen täyttämiseen menee noin 10 minuuttia,. 
+<br><br>
+Tutkimukseen osallistuminen on vapaaehtoista ja voit keskeyttää kokeen milloin tahansa. Kaikkea tutkimuksessa kerättyä tietoa käsitellään ainoastaan tutkimusryhmän jäsenten toimesta. Sinua ei voida tunnistaa vastaustesi perusteella. Tutkimuksen toteuttavat Lauri Nummenmaa, Enrico Glerean, Riitta Hari (Aalto-yliopisto), Mikko Sams (Aalto-yliopisto) ja Jari Hietanen (Tampereen yliopisto).
+<br><br>
+Lisätietoja: Enrico Glerean (eglerean@aalto.fi)
+
+start|<a href="informedconsent.php">Aloita koe t&auml;st&auml;"</a>
+continue|Tai jatka aiemmin aloitettua koetta antamalla k&auml;ytt&auml;j&auml;tunnuksesi
+thank-you|Olet suorittanut kaikki arvioinnit; suuri kiitos osallistumisesta!
+instructions|
+consent_title|Suostumuslomake
+exp_title|Kysely tuntemuksista kehossa ja mielessä
+cons_form_link|Lue tutkimustiedote <a href ='pdfs/sensations_consent_FI.pdf' target='_blank'>tästä</a>.
+consent_txt1|<br><br> Ennen tämän suostumuksen antamista olen lukenut ja ymmärtänyt saamani tutkimustiedotteen; sekä saanut riittävästi tietoa tutkimuksen kulusta. Minulle on selvitetty; että minusta kerättäviä tutkimustietoja tullaan käsittelemään luottamuksellisina siten; että niistä ei voida tunnistaa henkilöllisyyttäni. Ymmärrän; että osallistumiseni tutkimukseen on täysin vapaaehtoista ja että voin missä tutkimuksen vaiheessa tahansa keskeyttää tutkimuksen antamatta perustetta. Minulle on lisäksi selvitetty; että halutessani saan tutkimustiedotteessa nimetyltä tutkijalta lisätietoja tutkimuksen yleisistä periaatteista ja edistymisestä. Ymmärrän; että aineistoa kerätään pelkästään tieteellistä tutkimusta varten eikä sitä luovuteta osittainkaan koehenkilölle itselleen.<br>Klikkaamalla alla olevaa painiketta annan suostumukseni tutkimuksen yhteydessä tapahtuvaan tietojen keräämiseen ja niiden käsittelyyn tiedotteessa kuvatulla tavalla.
+accept|HYVÄKSYN
+consent_txt2|Tästä elektronisesta suostumuksesta säilytetään digitaalinen merkintä tutkimuksesta vastaavan tutkijan tiedostoissa.
+sub_ID|koehenkilötunnuksesi:
+done_perc|Valmiina:
+uid_error|UserID ##user## does not exist. <a href="index.php">go back</a> 
+title|Kysely tuntemuksista kehossa ja mielessä
+rating_title|Kysely tuntemuksista kehossa ja mielessä
+instr_title|Ohjeet
+instructions|instructions_FI.txt
+forward|valmis
+rp_title|Rekisteröidy
+rp_text|Tutkimukseen osallistuminen on vapaaehtoista ja voit keskeyttää kokeen milloin tahansa. Kaikkea tutkimuksessa kerättyä tietoa käsitellään ainoastaan tutkimusryhmän jäsenten toimesta. Sinua ei voida tunnistaa vastaustesi perusteella <br><br>Voit halutessasi suorittaa arvioinnit useammassa osassa. Poistuessasi sivulta vastauksesi tallentuvat automaattisesti, ja voit palata täyttämään kyselyn käyttäen samaa linkkiä kuin ensimmäisellä kerralla ja kirjautumalla sisään käyttäen omaa koehenkilötunnustasi, joka sinulle luodaan kirjautumisen yhteydessä. Näet tunnuksen seuraavan sivun harmaassa yläpalkissa vasemmalla (numerosarja). Merkitse tunnuksesi muistiin itsellesi! 
+rp_sex|Sukupuoli
+rp_male|Mies
+rp_female|Nainen
+rp_y|Kyllä
+rp_n|Ei
+rp_nation|Kotimaa
+rp_born|Synnyinmaa
+rp_age|Ikä
+rp_weight|Paino
+rp_height|Pituus
+rp_kg|Kg
+rp_cm|cm
+rp_handedness|Kätisyys
+rp_left|V
+rp_right|O
+rp_education|Koulutus
+rp_edu1|peruskoulu
+rp_edu2|keskiaste
+rp_edu3|korkea-aste
+rp_ps1|Oletko koskaan käynyt psykologin vastaanotolla?
+rp_ps2|Oletko koskaan käynyt psykiatrin vastaanotolla?
+rp_ps3|Oletko koskaan käynyt neurologin vastaanotolla?
+rp_sex_err|Sukupuoli puuttuu
+rp_age_err|Ikä puuttuu
+rp_weight_err|Paino puuttuu
+rp_height_err|Pituus puuttuu
+rp_handedness_err|Kätisyys puuttuu
+rp_hand_err|Kätisyys puuttuu
+rp_education_err|Koulutus puuttuu
+rp_ps1_err|Psykologi puuttuu
+rp_ps2_err|Psykiatri puuttuu
+rp_ps3_err|Neurologi puuttuu
+rp_psychologist_err|Psykologi puuttuu
+rp_psychiatrist_err|Psykiatri puuttuu
+rp_neurologist_err|Neurologi puuttuu
+rp_nation_err|Kotimaa puuttuu
+rp_born_err|Kotimaa puuttuu
+rp_register|Rekisteröidy
+am_disk_error|Tapahtui virhe. Ota yhteyttä osoitteeseen enrico.glerean@aalto.fi.
+footer_help|If you experience any error or malfunction, please contact enrico.glerean@aalto.fi
+start_ratings|Klikkaa tätä tekstiä aloittaaksesi.
+example_picture|
+vas_answer_missing|Merkitse ensin vastauksesi.
+ohjeet|<a href="ohjeet.php" target="_blank">
+vas_instructions|Ajattele seuraavaksi tuntemusta tai olotilaa
+vas_dim1|Kuinka paljon tämä asia tuntuu kehossa
+vas_dim2|Kuinka paljon tämä asia tuntuu mielessä 
+vas_dim3|Kuinka miellyttävältä tämä asia tuntuu
+vas_dim4|Kuinka paljon voit vaikuttaa tähän asiaan itse
+vas_dim5|Koska viimeksi koit tai teit tätä asiaa
+vas_dim1_left|ei lainkaan
+vas_dim1_right|erittäin paljon
+vas_dim2_left|ei lainkaan
+vas_dim2_right|erittäin paljon
+vas_dim3_left|erittäin epämiellyttävältä
+vas_dim3_right|erittäin miellyttävältä
+vas_dim4_left|ei lainkaan
+vas_dim4_right|erittäin paljon
+vas_dim5_left|alle tunti sitten
+vas_dim5_right|yli vuosi sitten tai en koskaan
+submit|Valmis
+moremore|Do you want to help us collecting 20 more words?
+yesyes|Yes, show me 20 more!
+oror|...or you can also:
+participate|Participate to other online studies

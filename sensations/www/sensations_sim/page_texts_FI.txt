@@ -1,0 +1,89 @@
+Key || Finnish
+welcome || Kysely tuntemusten samankaltaisuudesta 
+welcome_text || Tässä kokeessa tutkimme sitä, kuinka samankaltaisilta erilaiset kehossa ja mielessä tapahtuvat asiat tuntuvat.  Sinulle esitetään ruudulla joukko erilaisia tuntemuksia, tapahtumia ja olotiloja kuvaavia sanoja (kuten nälkä, ilo, ja väsymys). Tehtävänäsi on siirrellä hiirellä raahaamalla sanat siten, että keskenään samankaltaisimmalta tuntuvat asiat ovat lähellä toisiaan, ja erilaisilta tuntuvat puolestaan kaukana toisistaan.<br><br>Kyselyn täyttämiseen menee noin 10 minuuttia. Tutkimukseen osallistuminen on vapaaehtoista ja voit keskeyttää kokeen milloin tahansa. Kaikkea tutkimuksessa kerättyä tietoa käsitellään ainoastaan tutkimusryhmän jäsenten toimesta. Sinua ei voida tunnistaa vastaustesi perusteella. Tutkimuksen toteuttavat Lauri Nummenmaa, Enrico Glerean, Riitta Hari (Aalto-yliopisto), Mikko Sams (Aalto-yliopisto) ja Jari Hietanen (Tampereen yliopisto).<br><br>Lis&auml;tietoja: Enrico Glerean (eglerean@aalto.fi).
+start || <a href="informedconsent.php" class="bottone">Aloita koe t&auml;st&auml;</a>
+continue || Tai jatka aiemmin aloitettua koetta antamalla k&auml;ytt&auml;j&auml;tunnuksesi
+thank-you || Olet suorittanut kaikki arvioinnit, suuri kiitos osallistumisesta!
+instructions || 
+consent_title || Suostumuslomake
+exp_title || Kysely tuntemusten samankaltaisuudesta
+cons_form_link || Lue tutkimustiedote <a href ='pdfs/ConsentFinnish_sim_task.pdf' target='_blank'>t&auml;st&auml;</a>.
+consent_txt1 || <br><br> Ennen t&auml;m&auml;n suostumuksen antamista olen lukenut ja ymm&auml;rt&auml;nyt saamani tutkimustiedotteen, sek&auml; saanut riitt&auml;v&auml;sti tietoa tutkimuksen kulusta. Minulle on selvitetty, ett&auml; minusta ker&auml;tt&auml;vi&auml; tutkimustietoja tullaan k&auml;sittelem&auml;&auml;n luottamuksellisina siten, ett&auml; niist&auml; ei voida tunnistaa henkil&ouml;llisyytt&auml;ni. Ymm&auml;rr&auml;n, ett&auml; osallistumiseni tutkimukseen on t&auml;ysin vapaaehtoista ja ett&auml; voin miss&auml; tutkimuksen vaiheessa tahansa keskeytt&auml;&auml; tutkimuksen antamatta perustetta. Minulle on lis&auml;ksi selvitetty, ett&auml; halutessani saan tutkimustiedotteessa nimetylt&auml; tutkijalta lis&auml;tietoja tutkimuksen yleisist&auml; periaatteista ja edistymisest&auml;. Ymm&auml;rr&auml;n, ett&auml; aineistoa ker&auml;t&auml;&auml;n pelk&auml;st&auml;&auml;n tieteellist&auml; tutkimusta varten eik&auml; sit&auml; luovuteta osittainkaan koehenkil&ouml;lle itselleen.<br>Klikkaamalla alla olevaa painiketta annan suostumukseni tutkimuksen yhteydess&auml; tapahtuvaan tietojen ker&auml;&auml;miseen ja niiden k&auml;sittelyyn tiedotteessa kuvatulla tavalla.
+accept || HYV&Auml;KSYN
+consent_txt2 || T&auml;st&auml; elektronisesta suostumuksesta s&auml;ilytet&auml;&auml;n digitaalinen merkint&auml; tutkimuksesta vastaavan tutkijan tiedostoissa.
+sub_ID || koehenkil&ouml;tunnuksesi:
+done_perc || Valmiina:
+uid_error || UserID ##user## does not exist. <a href="index.php">go back</a> 
+title || Kysely tuntemusten samankaltaisuudesta
+rating_title || Kysely tuntemusten samankaltaisuudesta
+instr_title || Ohjeet
+instructions || instructions_FI.txt
+forward || valmis
+rp_title || Rekister&ouml;idy
+rp_text || Tutkimukseen osallistuminen on vapaaehtoista ja voit keskeytt&auml;&auml; kokeen milloin tahansa. Kaikkea tutkimuksessa ker&auml;tty&auml; tietoa k&auml;sitell&auml;&auml;n ainoastaan tutkimusryhm&auml;n j&auml;senten toimesta. Sinua ei voida tunnistaa vastaustesi perusteella <br><br>Voit halutessasi suorittaa arvioinnit useammassa osassa. Poistuessasi sivulta vastauksesi tallentuvat automaattisesti, ja voit palata t&auml;ytt&auml;m&auml;&auml;n kyselyn k&auml;ytt&auml;en samaa linkki&auml; kuin ensimm&auml;isell&auml; kerralla ja kirjautumalla sis&auml;&auml;n k&auml;ytt&auml;en omaa koehenkil&ouml;tunnustasi, joka sinulle luodaan kirjautumisen yhteydess&auml;. N&auml;et tunnuksen seuraavan sivun harmaassa yl&auml;palkissa vasemmalla (numerosarja). Merkitse tunnuksesi muistiin itsellesi! 
+rp_sex || Sukupuoli
+rp_male || Mies
+rp_female || Nainen
+rp_y || Kyll&auml;
+rp_n || Ei
+rp_nation || Kotimaa
+rp_born || Synnyinmaa
+rp_age || Ik&auml;
+rp_weight || Paino
+rp_height || Pituus
+rp_kg || Kg
+rp_cm || cm
+rp_handedness || K&auml;tisyys
+rp_left || V
+rp_right || O
+rp_education || Koulutus
+rp_edu1 || peruskoulu
+rp_edu2 || keskiaste
+rp_edu3 || korkea-aste
+rp_ps1 || Oletko koskaan k&auml;ynyt psykologin vastaanotolla?
+rp_ps2 || Oletko koskaan k&auml;ynyt psykiatrin vastaanotolla?
+rp_ps3 || Oletko koskaan k&auml;ynyt neurologin vastaanotolla?
+rp_sex_err || Sukupuoli puuttuu
+rp_age_err || Ik&auml; puuttuu
+rp_weight_err || Paino puuttuu
+rp_height_err || Pituus puuttuu
+rp_handedness_err || K&auml;tisyys puuttuu
+rp_hand_err || K&auml;tisyys puuttuu
+rp_education_err || Koulutus puuttuu
+rp_ps1_err || Psykologi puuttuu
+rp_ps2_err || Psykiatri puuttuu
+rp_ps3_err || Neurologi puuttuu
+rp_psychologist_err || Psykologi puuttuu
+rp_psychiatrist_err || Psykiatri puuttuu
+rp_neurologist_err || Neurologi puuttuu
+rp_nation_err || Kotimaa puuttuu
+rp_born_err || Kotimaa puuttuu
+rp_register || Rekister&ouml;idy
+am_disk_error || Tapahtui virhe. Ota yhteytt&auml; osoitteeseen enrico.glerean@aalto.fi.
+footer_help || Ongelmatilateissa ota yhteytt&auml; Enrico Glereaniin (enrico.glerean@aalto.fi)
+start_ratings || Klikkaa t&auml;t&auml; teksti&auml; aloittaaksesi
+example_picture || 
+vas_answer_missing || Merkitse ensin vastauksesi.
+ohjeet || <a href="ohjeet.php" target="_blank">
+vas_instructions || Tehtävänäsi on siirrellä hiirellä raahaamalla sanat siten, että keskenään samankaltaisimmalta tuntuvat tapahtumat ja tuntemukset ovat lähellä toisiaan, ja erilaisilta tuntuvat puolestaan kaukana toisistaan. Voit järjestellä sanoja niin pitkään kuin haluat. Kun olet saanut sanat järjesteltyä, klikkaa ruudun alareunassa olevaa nappulaa
+vas_dim1 || Kuinka paljon t&auml;m&auml; asia tuntuu kehossa
+vas_dim2 || Kuinka paljon t&auml;m&auml; asia tuntuu mieless&auml; 
+vas_dim3 || Kuinka miellytt&auml;v&auml;lt&auml; t&auml;m&auml; asia tuntuu
+vas_dim4 || Kuinka paljon voit vaikuttaa t&auml;h&auml;n asiaan itse
+vas_dim5 || Koska viimeksi koit tai teit t&auml;t&auml; asiaa
+vas_dim1_left || ei lainkaan
+vas_dim1_right || eritt&auml;in paljon
+vas_dim2_left || ei lainkaan
+vas_dim2_right || eritt&auml;in paljon
+vas_dim3_left || eritt&auml;in ep&auml;miellytt&auml;v&auml;lt&auml;
+vas_dim3_right || eritt&auml;in miellytt&auml;v&auml;lt&auml;
+vas_dim4_left || ei lainkaan
+vas_dim4_right || eritt&auml;in paljon
+vas_dim5_left || alle tunti sitten
+vas_dim5_right || yli vuosi sitten tai en koskaan
+submit || Valmis
+moremore || Haluatko arvioida toiset 20 sanaa?
+yesyes || Kyll&auml;, jatkan arviointeja!
+oror || Voit my&ouml;s halutessasi
+participate || Osallistu muihin kokeisiimme
+code || <br>Säilytä tämä koodisi: <b>##user##</b>. Voit palata myöhemmin jatkamaan tutkimusta. Koodin kanssa sinun ei tarvitse rekisteröityä uudelleen. Jos kadotat koodin, voit rekisteröityä uudelleen.<br><br>

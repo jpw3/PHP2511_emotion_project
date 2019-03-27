@@ -1,0 +1,96 @@
+Key || English
+welcome || Sensations in the mind and body
+welcome_text || In this experiment we study how much different sensations, states and actions are felt in the mind and the body. You are shown words denoting different states and sensations. For each state or sensation, you are asked to evaluate  how much you feel it in the mind, and how much you feel it in the body. Note that you can report feeling the same thing in both your mind and body. <br><br>You are also asked to evaluate how pleasant each state or sensation feels, how often you feel or do it, and how much you can control it. Completing the experiment takes about 10 minutes.<br><br>Participating is voluntary and you may end the experiment at any time. All data will be analyzed confidentially. Responses are anonymous and you cannot be recognized on the basis of your responses. Only the researchers directly involved in the project can access the data. This project is conducted by Lauri Nummenmaa, Enrico Glerean, Riitta Hari, Mikko Sams (Aalto University) and Jari Hietanen (University of Tampere).<br><br>Enquiries and comments may be sent to Enrico Glerean (enrico.glerean@aalto.fi).
+start || <a href="informedconsent.php" class="bottone">Click here to start the ratings</a>
+continue || or continue a previous session with your subject ID
+thank-you || You have completed all the ratings!<br>Thank you for your participation!
+instructions || 
+consent_title || Consent form
+exp_title || Sensations in the mind and body
+cons_form_link || Read the full study description <a href ='pdfs/sensations_consent_EN.pdf' target='_blank'>here</a>.
+consent_txt1 || <br><br>By giving consent I affirm to having read and understood the description provided above. I have been provided sufficient information on the study and I understand that data I produce for the study is processed confidentially and that my identity cannot be determined from the data. I understand that participation in the study is voluntary and that I can stop participation at any time without providing a reason for doing so. I have been explained that I can contact the researchers involved in the study for additional information regarding the general principles and progress of the study. I understand that data is collected solely for the purpose of scientific research and not handed to the participants themselves nor to any third party.<br><br>By clicking below I give consent to collect and process data as outlined above and in the description.
+accept || I ACCEPT
+consent_txt2 || This consent entry is stored digitally by the researchers.
+sub_ID || Your subject ID: 
+done_perc || Done:
+uid_error || UserID ##user## does not exist. <a href="index.php">go back</a> 
+title || Sensations in the mind and body
+rating_title || Sensations in the mind and body
+instr_title || Instructions for the experiment
+instructions || instructions.txt
+forward || submit
+rp_title || Register
+rp_text ||  Participating in the study is voluntary and you can stop the experiment at any time. All the data are processed by the members of the research group only. Your identity cannot be determined from the data.<br><br>You can complete the ratings over multiple sessions if you wish. When you exit the experiment by closing the browser window your answers will be saved automatically. You can return to the survey by logging in with your own subject number that will be created during the registration, please write it down for future use. 
+rp_sex || Gender
+rp_male || Male
+rp_female || Female
+rp_y || Yes
+rp_n || No
+rp_nation || Country where I currently live
+rp_born || Country where I was born
+rp_age || Age
+rp_weight || Weight
+rp_height || Height
+rp_kg || Kg
+rp_cm || cm
+rp_handedness || Handedness
+rp_left || Left
+rp_right || Right
+rp_education || Education
+rp_edu1 || Elementary school
+rp_edu2 || High school or equivalent
+rp_edu3 || Higher education
+rp_ps1 || Have you ever sought help from a professional psychologist?
+rp_ps2 || Have you ever sought help from a professional psychiatrist?
+rp_ps3 || Have you ever sought help from a professional neurologist?
+rp_sex_err || Gender missing
+rp_age_err || Age missing
+rp_weight_err || Weight missing
+rp_height_err || Height missing
+rp_handedness_err || Handedness missing
+rp_hand_err || Handedness missing
+rp_education_err || Education missing
+rp_ps1_err || Psychologist information missing
+rp_ps2_err || Psychiatrist information missing
+rp_ps3_err || Neurologist information missing
+rp_psychologist_err || Psychologist information missing
+rp_psychiatrist_err || Psychiatrist information missing
+rp_neurologist_err || Neurologist information missing
+rp_nation_err || Missing nationality
+rp_born_err || Missing place of birth
+rp_register || Register
+am_disk_error || There was a disk error. Please email enrico.glerean@aalto.fi
+footer_help || If you experience any error or malfunction, please contact enrico.glerean@aalto.fi
+start_ratings || Click here to start
+example_picture || <img src = 'images/en_example.jpg' style='margin:auto; width:750px; height:600px;' >
+vas_answer_missing || Please mark all five scales before continuing.
+ohjeet || <a href="ohjeet.php" target="_blank">
+vas_instructions || Next, consider the state or feeling
+vas_notscary || Not at all frightening
+vas_scary || Very frightening
+vas_notdisgusting || Not at all disgusting
+vas_disgusting || Very disgusting
+vas_unpleasant || Very unpleasant
+vas_pleasant || Very pleasant
+vas_calm || Very calm
+vas_alert || Very alert
+vas_dim1 || How much does it feel in the body
+vas_dim2 || How much does it feel in the mind 
+vas_dim3 || How pleasant does it feel
+vas_dim4 || How much can you control it
+vas_dim5 || When was the last time you did or felt this
+vas_dim1_left || not at all
+vas_dim1_right || extremely much
+vas_dim2_left || not at all
+vas_dim2_right || extremely much
+vas_dim3_left || extremely unpleasant
+vas_dim3_right || extremely pleasant
+vas_dim4_left || not at all
+vas_dim4_right || completely
+vas_dim5_left || less than an hour ago
+vas_dim5_right || over a year ago or never
+submit || Submit
+moremore || Do you want to help us rating 20 more words?
+yesyes || Yes, show me 20 more!
+oror || ...or you can also:
+participate || Participate to other online studies

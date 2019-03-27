@@ -1,0 +1,9 @@
+For each state or sensation, you are asked to evaluate how much you feel it in the mind, and how much you feel it in the body. Note that you can report feeling the same thing in both your mind and body. 
+<br><br>
+You are also asked to evaluate how pleasant each state or sensation feels, how often you feel or do it, and how much you can control it.
+See the video below for an example<br>
+<div style="width:450px;border:2px solid black;margin-left:auto;margin-right:auto;"><video width="450" height="300" controls autoplay loop>
+  <source src="example.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>

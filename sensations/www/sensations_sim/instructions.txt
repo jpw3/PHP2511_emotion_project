@@ -1,0 +1,2 @@
+Tässä kokeessa tutkimme sitä, kuinka samankaltaisilta erilaiset kehossa ja mielessä tapahtuvat asiat tuntuvat.  Sinulle esitetään ruudulla joukko erilaisia tapahtumia ja tuntemuksia kuvaavia sanoja (kuten nälkä, ilo, ja väsymys). Tehtävänäsi siirrellä hiirellä raahaamalla sanat siten, että keskenään samankaltaisimmalta tuntuvat tapahtumat ja tuntemukset ovat lähellä toisiaan, ja erilaiselta tuntuvat puolestaan kaukana toisistaan.  Voit järjestellä sanoja niin pitkään kuin haluat. Kun olet saanut sanat järjesteltyä, klikkaa ruudun alareunassa olevaa nappulaa. 
+<br><br>

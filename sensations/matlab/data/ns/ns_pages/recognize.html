@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Neurosynth: recognize</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <link rel="stylesheet" href="/static/css/main.min.css?5094ad2f">
+    
+    
+    
+    <script>
+	    var _gaq=[['_setAccount','UA-39492382-1'],['_trackPageview']];
+	    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	    s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    <script src="/static/js/main.min.js?7afd4975"></script>
+    
+</head>
+<body>
+	<!-- Docs master nav -->    
+	<header class="navbar navbar-static-top navbar-inverse" id="top" role="banner">
+	    <div class="container">
+	        <div class="navbar-header">
+	            <a href="../" class="navbar-brand">Neurosynth.org (beta)</a>
+	        </div>
+	        <nav class="collapse navbar-collapse" role="navigation">
+		        <ul class="nav navbar-nav">
+					<li class=""><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Meta-analyses<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/analyses/terms/">Terms</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/analyses/topics/">Topics</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/analyses/custom/">Custom</a></li>
+                            <!-- <li class="divider"></li> -->
+                            <!-- <li><a href="/analyses/browse/">Browse</a></li> -->
+                        </ul>
+                    </li>
+					<!-- <li class=""><a href="/analyses/">Analyses</a></li> -->
+					<li class=""><a href="/studies/">Studies</a></li>
+                    <li class=""><a href="/locations/">Locations</a></li>
+                    <li class=""><a href="/decode/">Decoder</a></li>
+                    <li class=""><a href="/code/">Code</a></li>
+			        <li class=""><a href="/faq/">FAQs</a></li>
+                    
+                        <li class=""><a href="/user/sign-in">Sign in</a></li>
+                    
+		        </ul>
+		        <ul class="nav navbar-nav navbar-right">
+		        </ul>
+	        </nav>
+	    </div>
+	</header>
+    
+        
+            
+        
+    
+
+    <div class="container">
+        <div id="content">
+            
+  
+  
+  <script  type="text/javascript">
+    var analysis = "2306";
+var rev_inf = 4612;
+  </script>
+  <div class="row">
+    <div class="col-md-8">
+      <h1 class="top-space0">recognize</h1>
+      <div class="lead">An automated meta-analysis of 64 studies</div>
+    </div>
+    <div class="col-md-2">
+      <div class="analysis-search">
+        <span>Search for another term:</span>
+        <input  type="text" id="term-analysis-search" />
+      </div>
+    </div>
+  </div>
+  <div id="page-analysis" class="row">
+    <div class="col-md-10 content">
+      <hr />
+      <ul id="analysis-menu" class="nav nav-pills">
+        <li class="active">
+          <a  data-toggle="tab" href="#maps">Maps</a>
+        </li>
+        <li>
+          <a  data-toggle="tab" href="#studies">Studies</a>
+        </li>
+        
+        <li>
+          <a  data-toggle="tab" href="#faq">FAQs</a>
+        </li>
+      </ul>
+      <div id="analysis-tab-content" class="tab-content">
+        <div id="maps" class="tab-pane active">
+          <script  type="text/javascript">
+            var options = {"panzoomEnabled":false}
+var settings = ['no-zoom', 'layers','nav','checkboxes']
+          </script>
+          <p>
+  <div id="analysis-viewer" class="viewer">
+    <div class="viewer-left-col">
+      <div id="view-coronal" class="view">
+        <canvas  width="220" height="220"> </canvas>
+        <div id="nav-yaxis" class="slider nav-slider-vertical"> </div>
+      </div>
+      <div id="view-axial" class="view">
+        <canvas  width="220" height="264"> </canvas>
+        <div id="nav-zaxis" class="slider nav-slider-vertical"> </div>
+      </div>
+    </div>
+    <div class="viewer-middle-col">
+      <div id="view-sagittal" class="view">
+        <canvas  width="264" height="220"> </canvas>
+        <div id="nav-xaxis" class="slider nav-slider-horizontal"> </div>
+      </div>
+      <div class="layer-data-panel">
+        <div class="coordinate-info">
+          <div class="coordinate-head">
+            <div class="intensity-info data-row">
+              <div class="intensity-label"> </div>
+              <div id="data-current-value" class="data-value intensity-value"> </div>
+            </div>
+            <div class="whats-here-box">
+              <button id="load-location" class="btn btn-success">What's here?</button>
+            </div>
+          </div>
+          <div class="plane-pos-box">
+            <div class="plane-pos-label">X:</div>
+            <input  name="current-x" min="-90" max="90" value="0" class="plane-pos" type="number" id="current-x" />
+          </div>
+          <div class="plane-pos-box">
+            <div class="plane-pos-label">Y:</div>
+            <input  name="current-y" min="-72" max="108" value="0" class="plane-pos" type="number" id="current-y" />
+          </div>
+          <div class="plane-pos-box">
+            <div class="plane-pos-label">Z:</div>
+            <input  name="current-z" min="-106" max="90" value="0" class="plane-pos" type="number" id="current-z" />
+          </div>
+        </div>
+        <div id="description" class="data-row">
+          <h5>Description</h5>
+          <div id="image-description"> </div>
+        </div>
+      </div>
+    </div>
+    <div class="viewer-right-col">
+      <div id="layer-panel">
+        <span>Layers</span>
+        <div id="layer-list-panel">
+          <div id="layer_visible_list"> </div>
+          <ul id="layer-list" class="layer-settings"> </ul>
+        </div>
+        <div id="layer-settings-panel">
+          <div class="layer-container-half-width">
+            <span>Color palette:</span>
+            <select id="select-color" class="layer-settings form-control"> </select>
+            <span>Positive/Negative:</span>
+            <select id="select-sign" class="layer-settings form-control"> </select>
+          </div>
+          <div id="checkbox-list"> </div>
+          <div class="layer-container-full-width">
+            <div class="top-space20"> </div>
+            <div class="layer-settings-row">
+              <div class="row-label">Thresholds:</div>
+              <input id="neg-threshold-text" class="slider-text" />
+              <div id="neg-threshold" class="slider layer-settings layer-settings-slider"> </div>
+              <div id="threshold-zero"> </div>
+              <div id="pos-threshold" class="slider layer-settings layer-settings-slider"> </div>
+              <input id="pos-threshold-text" class="slider-text" />
+            </div>
+            <div class="layer-settings-row">
+              <div class="row-label">Opacity:</div>
+              <input id="opacity-text" class="slider-text" />
+              <div id="opacity" class="slider layer-settings layer-settings-slider"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</p>
+        </div>
+        <div id="studies" class="tab-pane">
+          
+    
+      <h3>Studies associated with recognize</h3>
+    
+    
+      <table class="table-striped table-hover table table-condensed"  id="analysis-studies-table"> </table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Authors</th>
+          <th>Journal</th>
+          <th>Loading</th>
+        </tr>
+      </thead>
+    
+
+        </div>
+        
+        <div id="faq" class="tab-pane">
+          <h3>Term-based meta-analyses: Frequently Asked Questions</h3>
+          <p>This page displays information for an automated Neurosynth meta-analysis of the term "recognize". The meta-analysis was performed by automatically identifying all studies in the Neurosynth database that loaded highly on the term, and then performing meta-analyses to identify brain regions that were consistently or preferentially reported in the tables of those studies.</p>
+          <h4 class="help">What do the "forward inference" and "reverse inference" maps mean?</h4>
+          <p>
+            For a detailed explanation, please see our <a href="http://pilab.psy.utexas.edu/publications/Yarkoni_NatureMethods_2011.pdf">Yarkoni et al (2011)</a>. In brief, the <u>forward inference map</u> displays brain regions that are <em>consistently</em> active in studies that load highly on the term "recognize". Regions with large z-scores are reported more often than one would expect them to be if activation anywhere in the brain was equally likely. Note that this is typically not so interesting, because it turns out that some brain regions are consistently reported in a lot of different kinds of studies (again, see <a href="http://pilab.psy.utexas.edu/publications/Yarkoni_NatureMethods_2011.pdf">our paper</a>). So as a general rule of thumb, we don't recommend paying much attention to forward inference maps.
+          </p>
+          <p><u>Reverse inference maps</u> are, roughly, maps displaying brain regions that are <em>preferentially</em> related to the term recognize. The reverse inference map for recognize displays regions that are reported more often in articles that include the term recognize in their abstracts than articles that do not. Most of the time this a much more useful way of thinking about things, since reverse inference maps tell you, in some sense, which brain regions are more diagnostic of the term in question, and not just which regions are consistently activated in studies associated with that term.</p>
+          <h4 class="help">How do you determine which studies to include in an analysis?</h4>
+          <p>For all term-based meta-analyses visible on this website, we consider a study to load on a given term if the term is used at least once anywhere in the article abstract. We have applied various other modeling approaches in the past (e.g., increasing the cut-off, using continuous-valued weights, and using the full-text of articles rather than just the abstract), but there is generally surprisingly little effect on results within a fairly broad range of parameter variation.</p>
+          <h4 class="help">Are these maps corrected for multiple comparisons?</h4>
+          <p>Yes, they're corrected using a false discovery rate (FDR) approach, with an expected FDR of 0.01.</p>
+          <h4 class="help">I need more details! How exactly were these maps and data generated?</h4>
+          <p>
+            If you want to know exactly how things work, we encourage you to clone the Neurosynth python tools from the <a href="http://github.com/neurosynth/neurosynth">github repository</a> and work through some of the examples and code provided in the package. Everything you see on this page was generated using the default processing stream, so you should be able to easily generate the exact same images (unless the underlying database has grown or changed) for yourself.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        </div>
+        <div class="row" id="footer">
+            <div class="col-md-10">
+                <hr class="top-space40">
+                <div class="row">
+                    <div class="col-md-7 col-md-offset-2">
+                        <iframe src="http://ghbtns.com/github-btn.html?user=neurosynth&repo=neurosynth&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="90" height="20"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=neurosynth&repo=neurosynth&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="90" height="20"></iframe>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://neurosynth.org" data-via="neurosynth">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                        <a href="https://twitter.com/neurosynth" class="twitter-follow-button" data-show-count="true">Follow @neurosynth</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </div>
+                </div>
+                <div class="row footer-info">
+                    <div class="col-md-4 col-md-offset-3" style="padding-top: 20px;">Created and maintained by <a href="http://talyarkoni.org">Tal Yarkoni</a><br />Supported by NIH award R01MH096906<br />
+                    </div>
+                    <div class="col-md-2 support">
+                        <a href="http://nimh.nih.gov"><img src="/static/images/nimh-logo.png" width="100px"></a>
+                    </div>
+                </div>
+                <div class="row footer-links">
+                    <div class="col-md-6 col-md-offset-3">
+                    <ul>
+                        <li><a href="https://github.com/neurosynth/neurosynth">GitHub</a></li>
+                        <li>&middot;</li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li>&middot;</li>
+                        <li><a href="http://neurovault.org">NeuroVault</a></li>
+                        <li>&middot;</li>
+                        <li><a href="https://groups.google.com/d/forum/neurosynthlist">Mailing list</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="top-space40"></div>
+</body>
+</html>

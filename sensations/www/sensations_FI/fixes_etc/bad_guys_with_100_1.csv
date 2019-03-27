@@ -1,0 +1,14 @@
+[0] $for n in $(find .|grep 100_1|cut -d\/ -f2);do grep $n status.txt ;done > bad_guys_with_100_1.csv
+FI640609,48,tofix
+FI786099,28,tofix
+FI864871,28,tofix
+FI93714,48,tofix
+FI611761,28,tofix
+FI576699,28,tofix
+FI391881,48,tofix
+FI501768,28,tofix
+FI502531,28,tofix
+FI383936,28,tofix
+FI70488,28,tofix
+FI157618,48,ok
+FI285271,28,tofix

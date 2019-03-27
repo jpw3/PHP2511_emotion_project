@@ -1,0 +1,358 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    font-family: Lora, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background:white;
+    color:#111;
+    font-size:16px;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lora"), local("Lora-Regular"), url("http://fonts.gstatic.com/s/lora/v9/nAKwuw6_dIh5kwvpj3ShNfesZW2xOQ-xsNqO47m55DA.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Regular"), url("http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff") format("woff");
+}
+
+#header{
+  /*  width:904px;
+    min-height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:0px;
+    background-color: #C0C0C0;
+    padding-top: 10px;
+	*/
+}
+
+.all-rounded {
+    webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+    
+#progress-bar {
+    width: 300px;
+    background: #cccccc;
+    position: relative;
+    margin: 0 auto;
+}
+
+#progress-bar-percentage {
+    background: #093;
+    padding: 0px 0px;
+    color: #FFF;
+    text-align: center;
+    height: 20px;
+}
+
+#progress-bar-percentage span {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+#container{
+    width:900px;
+    min-height: 600px;
+    margin:0 auto;
+    margin-top: 0px;
+    position:relative;
+/*    border:2px solid #000000;*/
+}
+
+a{
+    color:#093;
+    font-weight:bold;
+    text-decoration:none;
+}
+a:hover{
+    background:#093;
+    color:#fff;
+}
+
+a.bottone{
+    text-transform:uppercase;
+	text-align:center;
+    display:block;
+	font-family: Montserrat, Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	border:1px solid #093;
+	width:400px;
+	padding:10px;
+	height: 20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.high{
+    font-weight:bold;
+    color:#f30;
+    font-size:20px;
+}
+h1{
+    font-family: Montserrat, Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	border: 1px solid black;
+    margin-top:20px;
+	margin-bottom:20px;
+	padding:20px;
+	text-transform:uppercase;
+	text-align:center;
+	
+}
+
+
+h2{
+    margin-top:20px;
+    color:#000;
+	 font-family: Montserrat, Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+
+    }
+h3{
+    font-size:18px;
+    font-weight:normal;
+    text-align:center;
+    margin-left:10px;
+    }
+b{
+        color:#4682B4;
+        font-size:18px;
+}
+
+#intro {
+    display:block;
+    width:400px;
+    height:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:auto;
+}
+#intro input{
+    font-family: Montserrat, Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+    width:400px;
+    text-align:center;
+    border:1px solid #093;
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+	height:20px;
+	color: #093;
+}
+#intro input:hover{
+	background:#093;
+	color:#fff;
+}
+
+.error{
+    display:inline;
+    background:#f13;
+    font-weight:bold;
+    padding:10px;
+    }
+
+#pbox{
+    position:absolute;
+    top:0px;
+    width:900px;
+    height:600px;
+    margin:0 auto;
+    cursor:crosshair !important;
+    z-index:100;
+}
+
+#pbox:focus{
+    cursor:crosshair;
+}
+#pbox1,#pbox2{
+    width:175px;
+    top:10px;
+    height:524px;
+    background:url('../images/dummyG_small.png');
+}   
+#pbox1{
+    position:absolute;
+    left:30px;
+    z-index:0;
+}
+
+#pbox2{
+    position:absolute;
+    z-index:0;
+    right:30px;
+}
+
+#pboxL {
+    position: relative;
+    width:300px;
+    z-index:0;
+    margin: 0 auto;
+}
+
+#pbox1L{
+    position:absolute;
+    left:30px;
+    top:540px;
+    width:220px;
+    z-index:0;
+}
+
+
+#pbox2L{
+    position:absolute;
+    right:30px;
+    top:540px;
+    width:220px;
+    text-align:right;
+    z-index:0;
+}
+#footer{
+    width:904px;
+    min-height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color: #C0C0C0;
+}
+
+#footeralways{
+	  position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+	padding:5px;
+	font-size:9px;
+	width:100%;
+	background:#093;
+	color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+    font-family: Montserrat, Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*background-image:url('../gray_stripes.jpg');*/
+}
+
+input[type=submit] {
+	width:400px;
+	border:1px solid #093;
+	padding:10px;
+	height:40px;
+	background:#fff;
+	    font-family: Montserrat, Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:16px;
+	color:#093;
+}
+
+input[type=submit]:hover{
+	background:#093;
+	color:#fff;
+	cursor:pointer;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Montserrat, Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+div.centered{
+	display:block;
+	width:400px;
+	    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#headeralways{ 
+	z-index:1000; 
+     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    padding:5px;
+    font-size:14px;
+    width:100%;
+    background:#093;
+    color:#fff;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-family: Montserrat, Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* background-image:url('../gray_stripes.jpg'); */
+}
+
+#register{
+	width:100%;
+	font-size:13px;
+}
+#register td{
+	padding:5px;
+}
+
+#register_disclaimer{
+	font-size:12px;
+}
+
+
+.vastable{
+	width:900px;
+	max-width:900px;
+	min-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+.vaslabelL{
+	width:150px;
+	max-width:150px;
+	min-width:150px;
+	text-align:right;
+	font-size:14px;
+}
+
+.vaslabelR{
+    width:150px;
+    max-width:150px;
+    min-width:150px;
+    text-align:left;
+	font-size:14px;
+}
+
+.vasline{
+	width:600px;
+	max-width:600px;
+}
+
+label{
+	cursor:pointer;
+}
+.oddrow{
+    background:#b3ffcc;
+}
+
+.evenrow{
+    background:#e6ffee;
+}
+     

@@ -1,0 +1,100 @@
+Sadness
+Anger
+Happiness
+Fear
+Surprise
+Disgust
+Pride
+Gratefulness
+Longing for
+Despise
+Despair
+Shame
+Guilt
+Disappointment
+Pleasure
+Nervousness
+Winning
+Losing
+Succeeding
+Failing
+Wanting
+Craving
+Waiting
+Inhibiting
+Social longing
+Speaking
+Laughing
+Love
+Social exclusion
+Togetherness
+Loneliness
+Ostracism
+Closeness (in social relations)
+Hostility
+Sympathy
+Anxiety
+Panic
+Stress
+Depression
+Mania
+Eating
+Drinking
+Hunger
+Satiation
+Thirst
+Sweating
+Urinating
+Defecation
+Tiredness
+Vitality
+Exhaustion
+Breathing
+Heartbeat
+Drunkenness
+Sexual arousal
+Orgasm
+Shivering
+Hangover
+Heartburn
+Suffocation
+Relaxation
+Sleeping
+Thinking
+Remembering
+Attending
+Forgetting
+Reading
+Imagining
+Daydreaming
+Inferring
+Reasoning
+Estimating
+Being conscious
+Memorizing
+Recognition
+Recollection
+Having flu
+Having fever
+Having stomach flu
+Having cold
+Having headache
+Feeling nauseous
+Having toothache
+Coughing
+Sneezing
+Aching
+Being dazzled
+Seeing
+Hearing
+Feeling touch
+Smelling
+Tasting
+Itching
+Numbness
+Feeling pain
+Hotness
+Coldness
+Dizziness
+Movement
+Acceleration

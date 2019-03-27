@@ -1,0 +1,2505 @@
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI118434
+sudo rsync -avztcp FI118434/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI118434/ --delete-after
+building file list ... done
+./
+10_2.csv
+12_2.csv
+16_2.csv
+19_2.csv
+1_1.csv
+1_2.csv
+21_2.csv
+23_1.csv
+25_1.csv
+26_2.csv
+27_2.csv
+29_1.csv
+32_1.csv
+37_1.csv
+39_2.csv
+3_1.csv
+43_2.csv
+44_1.csv
+45_1.csv
+49_2.csv
+56_1.csv
+59_1.csv
+62_2.csv
+63_2.csv
+64_1.csv
+65_2.csv
+66_1.csv
+69_1.csv
+73_2.csv
+77_2.csv
+78_1.csv
+7_1.csv
+81_2.csv
+83_2.csv
+84_1.csv
+89_2.csv
+8_1.csv
+91_1.csv
+93_1.csv
+96_2.csv
+98_2.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 9_2.csv
+deleting 98_1.csv
+deleting 97_2.csv
+deleting 95_2.csv
+deleting 92_1.csv
+deleting 90_1.csv
+deleting 88_2.csv
+deleting 83_1.csv
+deleting 82_2.csv
+deleting 80_2.csv
+deleting 77_1.csv
+deleting 76_2.csv
+deleting 72_2.csv
+deleting 6_1.csv
+deleting 68_1.csv
+deleting 65_1.csv
+deleting 64_2.csv
+deleting 63_1.csv
+deleting 61_2.csv
+deleting 58_1.csv
+deleting 55_1.csv
+deleting 48_2.csv
+deleting 43_1.csv
+deleting 42_2.csv
+deleting 38_2.csv
+deleting 36_1.csv
+deleting 31_1.csv
+deleting 2_1.csv
+deleting 28_1.csv
+deleting 25_2.csv
+deleting 24_1.csv
+deleting 22_1.csv
+deleting 20_2.csv
+deleting 18_2.csv
+deleting 15_2.csv
+deleting 11_2.csv
+
+sent 4605 bytes  received 917 bytes  11044.00 bytes/sec
+total size is 1104  speedup is 0.20
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI147252
+sudo rsync -avztcp FI147252/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI147252/ --delete-after
+building file list ... done
+./
+24_1.csv
+25_1.csv
+27_1.csv
+2_1.csv
+30_1.csv
+41_1.csv
+45_1.csv
+4_1.csv
+52_1.csv
+56_1.csv
+61_1.csv
+66_1.csv
+68_1.csv
+76_1.csv
+79_1.csv
+83_1.csv
+87_1.csv
+8_1.csv
+94_1.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_1.csv
+deleting 93_1.csv
+deleting 86_1.csv
+deleting 82_1.csv
+deleting 7_1.csv
+deleting 78_1.csv
+deleting 75_1.csv
+deleting 67_1.csv
+deleting 65_1.csv
+deleting 60_1.csv
+deleting 55_1.csv
+deleting 51_1.csv
+deleting 44_1.csv
+deleting 40_1.csv
+deleting 3_1.csv
+deleting 29_1.csv
+deleting 26_1.csv
+deleting 23_1.csv
+deleting 1_1.csv
+
+sent 2645 bytes  received 499 bytes  6288.00 bytes/sec
+total size is 707  speedup is 0.22
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI158164
+sudo rsync -avztcp FI158164/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI158164/ --delete-after
+building file list ... done
+./
+10_1.csv
+14_1.csv
+19_1.csv
+21_1.csv
+27_1.csv
+29_1.csv
+37_1.csv
+42_1.csv
+52_1.csv
+54_1.csv
+59_1.csv
+64_1.csv
+67_1.csv
+69_1.csv
+80_1.csv
+83_1.csv
+90_1.csv
+98_1.csv
+99_1.csv
+9_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 97_1.csv
+deleting 8_1.csv
+deleting 89_1.csv
+deleting 82_1.csv
+deleting 79_1.csv
+deleting 68_1.csv
+deleting 66_1.csv
+deleting 63_1.csv
+deleting 58_1.csv
+deleting 53_1.csv
+deleting 51_1.csv
+deleting 41_1.csv
+deleting 36_1.csv
+deleting 28_1.csv
+deleting 26_1.csv
+deleting 20_1.csv
+deleting 18_1.csv
+deleting 13_1.csv
+
+sent 2632 bytes  received 499 bytes  6262.00 bytes/sec
+total size is 719  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI169963
+sudo rsync -avztcp FI169963/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI169963/ --delete-after
+building file list ... done
+./
+11_1.csv
+12_1.csv
+22_1.csv
+25_1.csv
+30_1.csv
+34_1.csv
+41_1.csv
+44_1.csv
+47_1.csv
+57_1.csv
+60_1.csv
+65_1.csv
+66_1.csv
+6_1.csv
+77_1.csv
+79_1.csv
+82_1.csv
+87_1.csv
+93_1.csv
+95_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 94_1.csv
+deleting 92_1.csv
+deleting 86_1.csv
+deleting 81_1.csv
+deleting 78_1.csv
+deleting 76_1.csv
+deleting 64_1.csv
+deleting 5_1.csv
+deleting 59_1.csv
+deleting 56_1.csv
+deleting 46_1.csv
+deleting 43_1.csv
+deleting 40_1.csv
+deleting 33_1.csv
+deleting 29_1.csv
+deleting 24_1.csv
+deleting 21_1.csv
+deleting 10_1.csv
+
+sent 2640 bytes  received 499 bytes  6278.00 bytes/sec
+total size is 728  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI200729
+sudo rsync -avztcp FI200729/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI200729/ --delete-after
+building file list ... done
+./
+13_1.csv
+18_1.csv
+21_1.csv
+27_1.csv
+2_1.csv
+30_1.csv
+40_1.csv
+47_1.csv
+49_1.csv
+58_1.csv
+62_1.csv
+68_1.csv
+69_1.csv
+70_1.csv
+78_1.csv
+83_1.csv
+88_1.csv
+8_1.csv
+93_1.csv
+95_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 94_1.csv
+deleting 92_1.csv
+deleting 87_1.csv
+deleting 82_1.csv
+deleting 7_1.csv
+deleting 77_1.csv
+deleting 67_1.csv
+deleting 61_1.csv
+deleting 57_1.csv
+deleting 48_1.csv
+deleting 46_1.csv
+deleting 39_1.csv
+deleting 29_1.csv
+deleting 26_1.csv
+deleting 20_1.csv
+deleting 1_1.csv
+deleting 17_1.csv
+deleting 12_1.csv
+
+sent 2638 bytes  received 499 bytes  2091.33 bytes/sec
+total size is 727  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI204569
+sudo rsync -avztcp FI204569/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI204569/ --delete-after
+building file list ... done
+./
+100_1.csv
+14_1.csv
+23_1.csv
+25_1.csv
+32_1.csv
+33_1.csv
+40_1.csv
+46_1.csv
+49_1.csv
+4_1.csv
+56_1.csv
+58_1.csv
+68_1.csv
+70_1.csv
+76_1.csv
+7_1.csv
+81_1.csv
+85_1.csv
+97_1.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_1.csv
+deleting 96_1.csv
+deleting 84_1.csv
+deleting 80_1.csv
+deleting 75_1.csv
+deleting 6_1.csv
+deleting 69_1.csv
+deleting 67_1.csv
+deleting 57_1.csv
+deleting 55_1.csv
+deleting 48_1.csv
+deleting 45_1.csv
+deleting 3_1.csv
+deleting 39_1.csv
+deleting 31_1.csv
+deleting 24_1.csv
+deleting 22_1.csv
+deleting 13_1.csv
+
+sent 2641 bytes  received 499 bytes  6280.00 bytes/sec
+total size is 719  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI206342
+sudo rsync -avztcp FI206342/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI206342/ --delete-after
+building file list ... done
+./
+12_1.csv
+14_1.csv
+23_1.csv
+25_1.csv
+29_1.csv
+36_1.csv
+39_1.csv
+48_1.csv
+50_1.csv
+53_1.csv
+55_1.csv
+6_1.csv
+70_1.csv
+73_1.csv
+74_1.csv
+81_1.csv
+85_1.csv
+90_1.csv
+93_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 92_1.csv
+deleting 89_1.csv
+deleting 84_1.csv
+deleting 80_1.csv
+deleting 72_1.csv
+deleting 69_1.csv
+deleting 5_1.csv
+deleting 54_1.csv
+deleting 52_1.csv
+deleting 49_1.csv
+deleting 47_1.csv
+deleting 38_1.csv
+deleting 35_1.csv
+deleting 28_1.csv
+deleting 24_1.csv
+deleting 22_1.csv
+deleting 13_1.csv
+deleting 11_1.csv
+
+sent 2629 bytes  received 499 bytes  6256.00 bytes/sec
+total size is 709  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI223811
+sudo rsync -avztcp FI223811/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI223811/ --delete-after
+building file list ... done
+./
+11_1.csv
+12_1.csv
+16_1.csv
+26_1.csv
+33_1.csv
+34_1.csv
+41_1.csv
+43_1.csv
+47_1.csv
+51_1.csv
+53_1.csv
+59_1.csv
+61_1.csv
+64_1.csv
+67_1.csv
+86_1.csv
+89_1.csv
+8_1.csv
+95_1.csv
+96_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 94_1.csv
+deleting 88_1.csv
+deleting 85_1.csv
+deleting 7_1.csv
+deleting 66_1.csv
+deleting 63_1.csv
+deleting 60_1.csv
+deleting 58_1.csv
+deleting 52_1.csv
+deleting 50_1.csv
+deleting 46_1.csv
+deleting 42_1.csv
+deleting 40_1.csv
+deleting 32_1.csv
+deleting 25_1.csv
+deleting 15_1.csv
+deleting 10_1.csv
+
+sent 2602 bytes  received 499 bytes  6202.00 bytes/sec
+total size is 697  speedup is 0.22
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI237429
+sudo rsync -avztcp FI237429/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI237429/ --delete-after
+building file list ... done
+./
+13_1.csv
+18_1.csv
+21_1.csv
+27_1.csv
+2_1.csv
+30_1.csv
+40_1.csv
+47_1.csv
+49_1.csv
+58_1.csv
+62_1.csv
+68_1.csv
+69_1.csv
+70_1.csv
+78_1.csv
+83_1.csv
+88_1.csv
+8_1.csv
+93_1.csv
+95_1.csv
+currbatch.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_2.csv
+deleting 94_1.csv
+deleting 92_1.csv
+deleting 91_2.csv
+deleting 87_1.csv
+deleting 82_1.csv
+deleting 81_2.csv
+deleting 80_2.csv
+deleting 7_1.csv
+deleting 77_1.csv
+deleting 75_2.csv
+deleting 6_2.csv
+deleting 67_1.csv
+deleting 66_2.csv
+deleting 63_2.csv
+deleting 61_1.csv
+deleting 59_2.csv
+deleting 57_1.csv
+deleting 56_2.csv
+deleting 51_2.csv
+deleting 48_1.csv
+deleting 46_1.csv
+deleting 41_2.csv
+deleting 39_1.csv
+deleting 38_2.csv
+deleting 34_2.csv
+deleting 32_2.csv
+deleting 2_2.csv
+deleting 29_1.csv
+deleting 26_1.csv
+deleting 21_2.csv
+deleting 20_1.csv
+deleting 1_1.csv
+deleting 18_2.csv
+deleting 17_1.csv
+deleting 14_2.csv
+deleting 12_1.csv
+deleting 100_2.csv
+
+sent 2672 bytes  received 515 bytes  6374.00 bytes/sec
+total size is 725  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI257264
+sudo rsync -avztcp FI257264/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI257264/ --delete-after
+building file list ... done
+./
+10_1.csv
+14_1.csv
+19_1.csv
+21_1.csv
+27_1.csv
+29_1.csv
+37_1.csv
+42_1.csv
+52_1.csv
+54_1.csv
+59_1.csv
+64_1.csv
+67_1.csv
+69_1.csv
+80_1.csv
+83_1.csv
+90_1.csv
+98_1.csv
+99_1.csv
+9_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 97_1.csv
+deleting 8_1.csv
+deleting 89_1.csv
+deleting 82_1.csv
+deleting 79_1.csv
+deleting 68_1.csv
+deleting 66_1.csv
+deleting 63_1.csv
+deleting 58_1.csv
+deleting 53_1.csv
+deleting 51_1.csv
+deleting 41_1.csv
+deleting 36_1.csv
+deleting 28_1.csv
+deleting 26_1.csv
+deleting 20_1.csv
+deleting 18_1.csv
+deleting 13_1.csv
+
+sent 2635 bytes  received 499 bytes  6268.00 bytes/sec
+total size is 724  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI286542
+sudo rsync -avztcp FI286542/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI286542/ --delete-after
+building file list ... done
+./
+12_1.csv
+14_1.csv
+23_1.csv
+25_1.csv
+29_1.csv
+36_1.csv
+39_1.csv
+48_1.csv
+50_1.csv
+53_1.csv
+55_1.csv
+6_1.csv
+70_1.csv
+73_1.csv
+74_1.csv
+81_1.csv
+85_1.csv
+90_1.csv
+93_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 92_1.csv
+deleting 89_1.csv
+deleting 84_1.csv
+deleting 80_1.csv
+deleting 72_1.csv
+deleting 69_1.csv
+deleting 5_1.csv
+deleting 54_1.csv
+deleting 52_1.csv
+deleting 49_1.csv
+deleting 47_1.csv
+deleting 38_1.csv
+deleting 35_1.csv
+deleting 28_1.csv
+deleting 24_1.csv
+deleting 22_1.csv
+deleting 13_1.csv
+deleting 11_1.csv
+
+sent 2605 bytes  received 499 bytes  6208.00 bytes/sec
+total size is 731  speedup is 0.24
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI304572
+sudo rsync -avztcp FI304572/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI304572/ --delete-after
+building file list ... done
+./
+14_1.csv
+20_1.csv
+25_1.csv
+28_1.csv
+30_1.csv
+37_1.csv
+3_1.csv
+48_1.csv
+51_1.csv
+54_1.csv
+62_1.csv
+6_1.csv
+72_1.csv
+75_1.csv
+76_1.csv
+79_1.csv
+81_1.csv
+91_1.csv
+96_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 95_1.csv
+deleting 90_1.csv
+deleting 80_1.csv
+deleting 78_1.csv
+deleting 74_1.csv
+deleting 71_1.csv
+deleting 61_1.csv
+deleting 5_1.csv
+deleting 53_1.csv
+deleting 50_1.csv
+deleting 47_1.csv
+deleting 36_1.csv
+deleting 2_1.csv
+deleting 29_1.csv
+deleting 27_1.csv
+deleting 24_1.csv
+deleting 19_1.csv
+deleting 13_1.csv
+
+sent 2600 bytes  received 499 bytes  6198.00 bytes/sec
+total size is 733  speedup is 0.24
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI312680
+sudo rsync -avztcp FI312680/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI312680/ --delete-after
+building file list ... done
+./
+14_1.csv
+18_1.csv
+24_1.csv
+31_1.csv
+33_1.csv
+3_1.csv
+40_1.csv
+42_1.csv
+45_1.csv
+54_1.csv
+55_1.csv
+66_1.csv
+72_1.csv
+75_1.csv
+78_1.csv
+85_1.csv
+87_1.csv
+91_1.csv
+96_1.csv
+9_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 95_1.csv
+deleting 90_1.csv
+deleting 8_1.csv
+deleting 86_1.csv
+deleting 84_1.csv
+deleting 77_1.csv
+deleting 74_1.csv
+deleting 71_1.csv
+deleting 65_1.csv
+deleting 53_1.csv
+deleting 44_1.csv
+deleting 41_1.csv
+deleting 39_1.csv
+deleting 32_1.csv
+deleting 30_1.csv
+deleting 2_1.csv
+deleting 23_1.csv
+deleting 17_1.csv
+deleting 13_1.csv
+
+sent 2659 bytes  received 499 bytes  6316.00 bytes/sec
+total size is 725  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI362700
+sudo rsync -avztcp FI362700/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI362700/ --delete-after
+building file list ... done
+./
+100_1.csv
+17_1.csv
+18_1.csv
+23_1.csv
+33_1.csv
+35_1.csv
+41_1.csv
+46_1.csv
+4_1.csv
+52_1.csv
+55_1.csv
+56_1.csv
+69_1.csv
+70_1.csv
+75_1.csv
+78_1.csv
+79_1.csv
+7_1.csv
+92_1.csv
+93_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 99_1.csv
+deleting 91_1.csv
+deleting 77_1.csv
+deleting 74_1.csv
+deleting 6_1.csv
+deleting 68_1.csv
+deleting 54_1.csv
+deleting 51_1.csv
+deleting 45_1.csv
+deleting 40_1.csv
+deleting 3_1.csv
+deleting 34_1.csv
+deleting 32_1.csv
+deleting 22_1.csv
+deleting 16_1.csv
+
+sent 2636 bytes  received 499 bytes  6270.00 bytes/sec
+total size is 721  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI364224
+sudo rsync -avztcp FI364224/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI364224/ --delete-after
+building file list ... done
+./
+100_1.csv
+13_1.csv
+18_1.csv
+22_1.csv
+26_1.csv
+2_1.csv
+31_1.csv
+38_1.csv
+42_1.csv
+4_1.csv
+50_1.csv
+60_1.csv
+63_1.csv
+64_1.csv
+66_1.csv
+74_1.csv
+78_1.csv
+86_1.csv
+95_1.csv
+98_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 99_1.csv
+deleting 97_1.csv
+deleting 94_1.csv
+deleting 85_1.csv
+deleting 77_1.csv
+deleting 73_1.csv
+deleting 65_1.csv
+deleting 62_1.csv
+deleting 59_1.csv
+deleting 49_1.csv
+deleting 41_1.csv
+deleting 3_1.csv
+deleting 37_1.csv
+deleting 30_1.csv
+deleting 25_1.csv
+deleting 21_1.csv
+deleting 1_1.csv
+deleting 17_1.csv
+deleting 12_1.csv
+
+sent 2623 bytes  received 499 bytes  6244.00 bytes/sec
+total size is 714  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI372843
+sudo rsync -avztcp FI372843/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI372843/ --delete-after
+building file list ... done
+./
+100_1.csv
+11_1.csv
+12_2.csv
+13_1.csv
+14_2.csv
+22_1.csv
+23_2.csv
+24_1.csv
+25_2.csv
+29_2.csv
+31_1.csv
+34_1.csv
+36_2.csv
+37_1.csv
+39_2.csv
+42_1.csv
+48_2.csv
+49_1.csv
+50_2.csv
+53_2.csv
+55_2.csv
+59_1.csv
+5_1.csv
+62_1.csv
+68_1.csv
+69_1.csv
+6_2.csv
+70_2.csv
+73_2.csv
+74_2.csv
+75_1.csv
+81_2.csv
+82_1.csv
+83_1.csv
+85_2.csv
+89_1.csv
+90_2.csv
+93_2.csv
+94_1.csv
+97_2.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 99_1.csv
+deleting 96_2.csv
+deleting 93_1.csv
+deleting 92_2.csv
+deleting 89_2.csv
+deleting 88_1.csv
+deleting 84_2.csv
+deleting 81_1.csv
+deleting 80_2.csv
+deleting 74_1.csv
+deleting 72_2.csv
+deleting 69_2.csv
+deleting 67_1.csv
+deleting 61_1.csv
+deleting 5_2.csv
+deleting 58_1.csv
+deleting 54_2.csv
+deleting 52_2.csv
+deleting 4_1.csv
+deleting 49_2.csv
+deleting 48_1.csv
+deleting 47_2.csv
+deleting 41_1.csv
+deleting 38_2.csv
+deleting 36_1.csv
+deleting 35_2.csv
+deleting 33_1.csv
+deleting 30_1.csv
+deleting 28_2.csv
+deleting 24_2.csv
+deleting 23_1.csv
+deleting 22_2.csv
+deleting 21_1.csv
+deleting 13_2.csv
+deleting 12_1.csv
+deleting 11_2.csv
+deleting 10_1.csv
+
+sent 4473 bytes  received 879 bytes  3568.00 bytes/sec
+total size is 1111  speedup is 0.21
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI394503
+sudo rsync -avztcp FI394503/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI394503/ --delete-after
+building file list ... done
+./
+11_1.csv
+16_1.csv
+22_1.csv
+24_1.csv
+26_1.csv
+27_1.csv
+38_1.csv
+42_1.csv
+51_1.csv
+60_1.csv
+63_1.csv
+64_1.csv
+67_1.csv
+73_1.csv
+81_1.csv
+82_1.csv
+87_1.csv
+91_1.csv
+96_1.csv
+9_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 95_1.csv
+deleting 90_1.csv
+deleting 8_1.csv
+deleting 86_1.csv
+deleting 80_1.csv
+deleting 72_1.csv
+deleting 66_1.csv
+deleting 62_1.csv
+deleting 59_1.csv
+deleting 50_1.csv
+deleting 41_1.csv
+deleting 37_1.csv
+deleting 25_1.csv
+deleting 23_1.csv
+deleting 21_1.csv
+deleting 15_1.csv
+deleting 10_1.csv
+
+sent 2612 bytes  received 499 bytes  6222.00 bytes/sec
+total size is 721  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI410658
+sudo rsync -avztcp FI410658/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI410658/ --delete-after
+building file list ... done
+./
+13_1.csv
+14_1.csv
+15_1.csv
+18_1.csv
+24_1.csv
+26_1.csv
+27_1.csv
+40_1.csv
+42_1.csv
+51_1.csv
+61_1.csv
+63_1.csv
+66_1.csv
+70_1.csv
+74_1.csv
+78_1.csv
+86_1.csv
+93_1.csv
+95_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 94_1.csv
+deleting 92_1.csv
+deleting 85_1.csv
+deleting 77_1.csv
+deleting 73_1.csv
+deleting 69_1.csv
+deleting 65_1.csv
+deleting 62_1.csv
+deleting 60_1.csv
+deleting 50_1.csv
+deleting 41_1.csv
+deleting 39_1.csv
+deleting 25_1.csv
+deleting 23_1.csv
+deleting 17_1.csv
+deleting 12_1.csv
+
+sent 2629 bytes  received 499 bytes  6256.00 bytes/sec
+total size is 723  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI412647
+sudo rsync -avztcp FI412647/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI412647/ --delete-after
+building file list ... done
+./
+16_1.csv
+17_1.csv
+18_1.csv
+22_1.csv
+28_1.csv
+31_1.csv
+39_1.csv
+43_1.csv
+47_1.csv
+4_1.csv
+55_1.csv
+60_1.csv
+70_1.csv
+74_1.csv
+75_1.csv
+80_1.csv
+83_1.csv
+89_1.csv
+92_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 91_1.csv
+deleting 88_1.csv
+deleting 82_1.csv
+deleting 79_1.csv
+deleting 73_1.csv
+deleting 69_1.csv
+deleting 59_1.csv
+deleting 54_1.csv
+deleting 46_1.csv
+deleting 42_1.csv
+deleting 3_1.csv
+deleting 38_1.csv
+deleting 30_1.csv
+deleting 27_1.csv
+deleting 21_1.csv
+deleting 15_1.csv
+
+sent 2604 bytes  received 499 bytes  6206.00 bytes/sec
+total size is 732  speedup is 0.24
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI419804
+sudo rsync -avztcp FI419804/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI419804/ --delete-after
+building file list ... done
+./
+10_3.csv
+11_2.csv
+15_1.csv
+16_2.csv
+19_3.csv
+20_1.csv
+21_3.csv
+22_2.csv
+24_2.csv
+25_1.csv
+26_2.csv
+27_2.csv
+28_3.csv
+29_1.csv
+2_1.csv
+34_1.csv
+37_1.csv
+38_2.csv
+3_3.csv
+42_2.csv
+45_1.csv
+50_1.csv
+51_2.csv
+59_1.csv
+60_2.csv
+61_1.csv
+62_3.csv
+63_2.csv
+64_2.csv
+65_1.csv
+66_3.csv
+67_2.csv
+72_1.csv
+73_2.csv
+76_1.csv
+81_2.csv
+82_2.csv
+83_1.csv
+84_1.csv
+87_2.csv
+88_1.csv
+8_1.csv
+91_2.csv
+94_1.csv
+95_1.csv
+96_2.csv
+9_2.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 9_3.csv
+deleting 95_2.csv
+deleting 93_1.csv
+deleting 90_2.csv
+deleting 8_2.csv
+deleting 87_1.csv
+deleting 86_2.csv
+deleting 82_1.csv
+deleting 80_2.csv
+deleting 7_1.csv
+deleting 75_1.csv
+deleting 72_2.csv
+deleting 71_1.csv
+deleting 66_2.csv
+deleting 65_3.csv
+deleting 64_1.csv
+deleting 62_2.csv
+deleting 61_3.csv
+deleting 60_1.csv
+deleting 59_2.csv
+deleting 58_1.csv
+deleting 50_2.csv
+deleting 49_1.csv
+deleting 44_1.csv
+deleting 41_2.csv
+deleting 37_2.csv
+deleting 36_1.csv
+deleting 33_1.csv
+deleting 2_3.csv
+deleting 28_1.csv
+deleting 27_3.csv
+deleting 25_2.csv
+deleting 24_1.csv
+deleting 23_2.csv
+deleting 21_2.csv
+deleting 20_3.csv
+deleting 1_1.csv
+deleting 19_1.csv
+deleting 18_3.csv
+deleting 15_2.csv
+deleting 14_1.csv
+deleting 10_2.csv
+
+sent 5106 bytes  received 1012 bytes  12236.00 bytes/sec
+total size is 1214  speedup is 0.20
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI426576
+sudo rsync -avztcp FI426576/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI426576/ --delete-after
+building file list ... done
+./
+12_1.csv
+14_1.csv
+28_1.csv
+30_1.csv
+32_1.csv
+38_1.csv
+44_1.csv
+46_1.csv
+4_1.csv
+51_1.csv
+55_1.csv
+56_1.csv
+59_1.csv
+5_1.csv
+71_1.csv
+75_1.csv
+82_1.csv
+90_1.csv
+93_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 92_1.csv
+deleting 89_1.csv
+deleting 81_1.csv
+deleting 74_1.csv
+deleting 70_1.csv
+deleting 58_1.csv
+deleting 54_1.csv
+deleting 50_1.csv
+deleting 45_1.csv
+deleting 43_1.csv
+deleting 3_1.csv
+deleting 37_1.csv
+deleting 31_1.csv
+deleting 29_1.csv
+deleting 27_1.csv
+deleting 13_1.csv
+deleting 11_1.csv
+
+sent 2639 bytes  received 499 bytes  6276.00 bytes/sec
+total size is 725  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI432016
+sudo rsync -avztcp FI432016/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI432016/ --delete-after
+building file list ... done
+./
+10_1.csv
+14_1.csv
+17_1.csv
+29_1.csv
+32_1.csv
+36_1.csv
+37_1.csv
+3_1.csv
+42_1.csv
+46_1.csv
+47_1.csv
+57_1.csv
+60_1.csv
+62_1.csv
+65_1.csv
+66_1.csv
+79_1.csv
+87_1.csv
+94_1.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 9_1.csv
+deleting 98_1.csv
+deleting 93_1.csv
+deleting 86_1.csv
+deleting 78_1.csv
+deleting 64_1.csv
+deleting 61_1.csv
+deleting 59_1.csv
+deleting 56_1.csv
+deleting 45_1.csv
+deleting 41_1.csv
+deleting 35_1.csv
+deleting 31_1.csv
+deleting 2_1.csv
+deleting 28_1.csv
+deleting 16_1.csv
+deleting 13_1.csv
+
+sent 2637 bytes  received 499 bytes  6272.00 bytes/sec
+total size is 718  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI444569
+sudo rsync -avztcp FI444569/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI444569/ --delete-after
+building file list ... done
+./
+100_1.csv
+14_1.csv
+23_1.csv
+25_1.csv
+32_1.csv
+33_1.csv
+40_1.csv
+46_1.csv
+49_1.csv
+4_1.csv
+56_1.csv
+58_1.csv
+68_1.csv
+70_1.csv
+76_1.csv
+7_1.csv
+81_1.csv
+85_1.csv
+97_1.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_1.csv
+deleting 96_1.csv
+deleting 84_1.csv
+deleting 80_1.csv
+deleting 75_1.csv
+deleting 6_1.csv
+deleting 69_1.csv
+deleting 67_1.csv
+deleting 57_1.csv
+deleting 55_1.csv
+deleting 48_1.csv
+deleting 45_1.csv
+deleting 3_1.csv
+deleting 39_1.csv
+deleting 31_1.csv
+deleting 24_1.csv
+deleting 22_1.csv
+deleting 13_1.csv
+
+sent 2658 bytes  received 499 bytes  6314.00 bytes/sec
+total size is 726  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI445865
+sudo rsync -avztcp FI445865/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI445865/ --delete-after
+building file list ... done
+./
+100_2.csv
+13_1.csv
+14_2.csv
+19_1.csv
+20_1.csv
+23_2.csv
+25_2.csv
+27_1.csv
+2_1.csv
+32_2.csv
+33_2.csv
+36_1.csv
+38_1.csv
+3_1.csv
+40_2.csv
+45_1.csv
+46_2.csv
+49_2.csv
+4_2.csv
+50_1.csv
+54_1.csv
+56_2.csv
+58_2.csv
+59_1.csv
+68_2.csv
+70_2.csv
+71_1.csv
+74_1.csv
+75_1.csv
+76_2.csv
+7_2.csv
+81_2.csv
+83_1.csv
+85_2.csv
+86_1.csv
+88_1.csv
+94_1.csv
+96_1.csv
+97_2.csv
+99_2.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_2.csv
+deleting 96_2.csv
+deleting 95_1.csv
+deleting 93_1.csv
+deleting 87_1.csv
+deleting 85_1.csv
+deleting 84_2.csv
+deleting 82_1.csv
+deleting 80_2.csv
+deleting 75_2.csv
+deleting 73_1.csv
+deleting 70_1.csv
+deleting 6_2.csv
+deleting 69_2.csv
+deleting 67_2.csv
+deleting 58_1.csv
+deleting 57_2.csv
+deleting 55_2.csv
+deleting 53_1.csv
+deleting 49_1.csv
+deleting 48_2.csv
+deleting 45_2.csv
+deleting 44_1.csv
+deleting 3_2.csv
+deleting 39_2.csv
+deleting 37_1.csv
+deleting 35_1.csv
+deleting 31_2.csv
+deleting 26_1.csv
+deleting 24_2.csv
+deleting 22_2.csv
+deleting 1_1.csv
+deleting 18_1.csv
+deleting 13_2.csv
+deleting 12_1.csv
+
+sent 4502 bytes  received 879 bytes  10762.00 bytes/sec
+total size is 1104  speedup is 0.21
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI506857
+sudo rsync -avztcp FI506857/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI506857/ --delete-after
+building file list ... done
+./
+11_2.csv
+12_1.csv
+22_1.csv
+23_1.csv
+2_2.csv
+30_1.csv
+31_2.csv
+33_2.csv
+34_1.csv
+37_2.csv
+41_1.csv
+43_2.csv
+44_1.csv
+45_1.csv
+49_2.csv
+4_1.csv
+52_2.csv
+54_2.csv
+57_1.csv
+58_1.csv
+5_1.csv
+60_2.csv
+67_1.csv
+68_1.csv
+69_1.csv
+6_2.csv
+71_2.csv
+79_1.csv
+81_1.csv
+84_2.csv
+89_2.csv
+90_1.csv
+91_2.csv
+92_1.csv
+94_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 93_1.csv
+deleting 91_1.csv
+deleting 90_2.csv
+deleting 89_1.csv
+deleting 88_2.csv
+deleting 83_2.csv
+deleting 80_1.csv
+deleting 78_1.csv
+deleting 70_2.csv
+deleting 66_1.csv
+deleting 5_2.csv
+deleting 59_2.csv
+deleting 56_1.csv
+deleting 53_2.csv
+deleting 51_2.csv
+deleting 48_2.csv
+deleting 43_1.csv
+deleting 42_2.csv
+deleting 40_1.csv
+deleting 3_1.csv
+deleting 36_2.csv
+deleting 33_1.csv
+deleting 32_2.csv
+deleting 30_2.csv
+deleting 29_1.csv
+deleting 21_1.csv
+deleting 1_2.csv
+deleting 11_1.csv
+deleting 10_2.csv
+
+sent 3999 bytes  received 784 bytes  9566.00 bytes/sec
+total size is 999  speedup is 0.21
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI535633
+sudo rsync -avztcp FI535633/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI535633/ --delete-after
+building file list ... done
+./
+10_1.csv
+12_1.csv
+16_1.csv
+19_1.csv
+21_1.csv
+26_1.csv
+27_1.csv
+39_1.csv
+43_1.csv
+49_1.csv
+62_1.csv
+63_1.csv
+65_1.csv
+73_1.csv
+77_1.csv
+81_1.csv
+83_1.csv
+89_1.csv
+96_1.csv
+98_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 9_1.csv
+deleting 97_1.csv
+deleting 95_1.csv
+deleting 88_1.csv
+deleting 82_1.csv
+deleting 80_1.csv
+deleting 76_1.csv
+deleting 72_1.csv
+deleting 64_1.csv
+deleting 61_1.csv
+deleting 48_1.csv
+deleting 42_1.csv
+deleting 38_1.csv
+deleting 25_1.csv
+deleting 20_1.csv
+deleting 18_1.csv
+deleting 15_1.csv
+deleting 11_1.csv
+
+sent 2625 bytes  received 499 bytes  2082.67 bytes/sec
+total size is 706  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI547226
+sudo rsync -avztcp FI547226/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI547226/ --delete-after
+building file list ... done
+./
+17_1.csv
+31_1.csv
+34_1.csv
+36_1.csv
+37_1.csv
+44_1.csv
+46_1.csv
+4_1.csv
+50_1.csv
+53_1.csv
+54_1.csv
+5_1.csv
+63_1.csv
+6_1.csv
+72_1.csv
+75_1.csv
+79_1.csv
+87_1.csv
+89_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 88_1.csv
+deleting 86_1.csv
+deleting 78_1.csv
+deleting 74_1.csv
+deleting 71_1.csv
+deleting 62_1.csv
+deleting 52_1.csv
+deleting 49_1.csv
+deleting 45_1.csv
+deleting 43_1.csv
+deleting 3_1.csv
+deleting 35_1.csv
+deleting 33_1.csv
+deleting 30_1.csv
+deleting 16_1.csv
+
+sent 2615 bytes  received 499 bytes  6228.00 bytes/sec
+total size is 709  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI577058
+sudo rsync -avztcp FI577058/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI577058/ --delete-after
+building file list ... done
+./
+13_1.csv
+14_1.csv
+15_1.csv
+18_1.csv
+24_1.csv
+26_1.csv
+27_1.csv
+40_1.csv
+42_1.csv
+51_1.csv
+61_1.csv
+63_1.csv
+66_1.csv
+70_1.csv
+74_1.csv
+78_1.csv
+86_1.csv
+93_1.csv
+95_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 94_1.csv
+deleting 92_1.csv
+deleting 85_1.csv
+deleting 77_1.csv
+deleting 73_1.csv
+deleting 69_1.csv
+deleting 65_1.csv
+deleting 62_1.csv
+deleting 60_1.csv
+deleting 50_1.csv
+deleting 41_1.csv
+deleting 39_1.csv
+deleting 25_1.csv
+deleting 23_1.csv
+deleting 17_1.csv
+deleting 12_1.csv
+
+sent 2614 bytes  received 499 bytes  6226.00 bytes/sec
+total size is 720  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI624460
+sudo rsync -avztcp FI624460/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI624460/ --delete-after
+building file list ... done
+./
+13_1.csv
+15_1.csv
+18_1.csv
+20_1.csv
+33_1.csv
+35_1.csv
+39_1.csv
+3_1.csv
+48_1.csv
+51_1.csv
+54_2.csv
+58_1.csv
+61_1.csv
+72_1.csv
+73_1.csv
+75_1.csv
+81_1.csv
+86_1.csv
+88_1.csv
+91_1.csv
+92_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 90_1.csv
+deleting 87_1.csv
+deleting 85_1.csv
+deleting 80_1.csv
+deleting 74_1.csv
+deleting 71_1.csv
+deleting 60_1.csv
+deleting 57_1.csv
+deleting 53_2.csv
+deleting 50_1.csv
+deleting 47_1.csv
+deleting 38_1.csv
+deleting 34_1.csv
+deleting 32_1.csv
+deleting 2_1.csv
+deleting 19_1.csv
+deleting 17_1.csv
+deleting 14_1.csv
+deleting 12_1.csv
+
+sent 2751 bytes  received 518 bytes  6538.00 bytes/sec
+total size is 740  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI625939
+sudo rsync -avztcp FI625939/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI625939/ --delete-after
+building file list ... done
+./
+16_1.csv
+18_1.csv
+25_1.csv
+2_1.csv
+32_1.csv
+35_1.csv
+37_1.csv
+42_1.csv
+49_1.csv
+56_1.csv
+61_1.csv
+65_1.csv
+71_1.csv
+73_1.csv
+79_1.csv
+82_1.csv
+8_1.csv
+96_1.csv
+97_1.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_1.csv
+deleting 95_1.csv
+deleting 81_1.csv
+deleting 7_1.csv
+deleting 78_1.csv
+deleting 72_1.csv
+deleting 70_1.csv
+deleting 64_1.csv
+deleting 60_1.csv
+deleting 55_1.csv
+deleting 48_1.csv
+deleting 41_1.csv
+deleting 36_1.csv
+deleting 34_1.csv
+deleting 31_1.csv
+deleting 24_1.csv
+deleting 1_1.csv
+deleting 17_1.csv
+deleting 15_1.csv
+
+sent 2625 bytes  received 499 bytes  6248.00 bytes/sec
+total size is 732  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI629987
+sudo rsync -avztcp FI629987/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI629987/ --delete-after
+building file list ... done
+./
+10_1.csv
+16_1.csv
+19_1.csv
+23_1.csv
+28_1.csv
+32_1.csv
+38_1.csv
+46_1.csv
+48_1.csv
+54_1.csv
+58_1.csv
+64_1.csv
+73_1.csv
+74_1.csv
+79_1.csv
+86_1.csv
+8_1.csv
+90_1.csv
+92_1.csv
+93_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 9_1.csv
+deleting 91_1.csv
+deleting 89_1.csv
+deleting 85_1.csv
+deleting 7_1.csv
+deleting 78_1.csv
+deleting 72_1.csv
+deleting 63_1.csv
+deleting 57_1.csv
+deleting 53_1.csv
+deleting 47_1.csv
+deleting 45_1.csv
+deleting 37_1.csv
+deleting 31_1.csv
+deleting 27_1.csv
+deleting 22_1.csv
+deleting 18_1.csv
+deleting 15_1.csv
+
+sent 2613 bytes  received 499 bytes  6224.00 bytes/sec
+total size is 704  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI632530
+sudo rsync -avztcp FI632530/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI632530/ --delete-after
+building file list ... done
+./
+100_1.csv
+14_1.csv
+20_1.csv
+22_1.csv
+35_1.csv
+36_1.csv
+38_1.csv
+47_1.csv
+4_1.csv
+50_1.csv
+57_1.csv
+58_1.csv
+68_1.csv
+74_1.csv
+76_1.csv
+82_1.csv
+86_1.csv
+88_1.csv
+90_1.csv
+9_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 99_1.csv
+deleting 8_1.csv
+deleting 89_1.csv
+deleting 87_1.csv
+deleting 85_1.csv
+deleting 81_1.csv
+deleting 75_1.csv
+deleting 73_1.csv
+deleting 67_1.csv
+deleting 56_1.csv
+deleting 49_1.csv
+deleting 46_1.csv
+deleting 3_1.csv
+deleting 37_1.csv
+deleting 34_1.csv
+deleting 21_1.csv
+deleting 19_1.csv
+deleting 13_1.csv
+
+sent 2646 bytes  received 499 bytes  6290.00 bytes/sec
+total size is 712  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI669306
+sudo rsync -avztcp FI669306/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI669306/ --delete-after
+building file list ... done
+./
+11_1.csv
+14_1.csv
+30_1.csv
+34_1.csv
+36_1.csv
+41_1.csv
+44_1.csv
+46_1.csv
+48_1.csv
+57_1.csv
+61_1.csv
+62_1.csv
+6_1.csv
+76_1.csv
+77_1.csv
+7_1.csv
+83_1.csv
+90_1.csv
+94_1.csv
+97_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 93_1.csv
+deleting 89_1.csv
+deleting 82_1.csv
+deleting 75_1.csv
+deleting 60_1.csv
+deleting 5_1.csv
+deleting 56_1.csv
+deleting 47_1.csv
+deleting 45_1.csv
+deleting 43_1.csv
+deleting 40_1.csv
+deleting 35_1.csv
+deleting 33_1.csv
+deleting 29_1.csv
+deleting 13_1.csv
+deleting 10_1.csv
+
+sent 2643 bytes  received 499 bytes  6284.00 bytes/sec
+total size is 708  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI67195
+sudo rsync -avztcp FI67195/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI67195/ --delete-after
+building file list ... done
+./
+15_1.csv
+17_1.csv
+21_1.csv
+23_1.csv
+29_1.csv
+30_1.csv
+3_1.csv
+41_1.csv
+42_1.csv
+49_1.csv
+54_1.csv
+58_1.csv
+65_1.csv
+73_1.csv
+77_1.csv
+78_1.csv
+79_1.csv
+87_1.csv
+97_1.csv
+98_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 96_1.csv
+deleting 86_1.csv
+deleting 76_1.csv
+deleting 72_1.csv
+deleting 64_1.csv
+deleting 57_1.csv
+deleting 53_1.csv
+deleting 48_1.csv
+deleting 40_1.csv
+deleting 2_1.csv
+deleting 28_1.csv
+deleting 22_1.csv
+deleting 20_1.csv
+deleting 16_1.csv
+deleting 14_1.csv
+
+sent 2650 bytes  received 499 bytes  6298.00 bytes/sec
+total size is 742  speedup is 0.24
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI740617
+sudo rsync -avztcp FI740617/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI740617/ --delete-after
+building file list ... done
+./
+12_1.csv
+13_1.csv
+18_1.csv
+25_1.csv
+31_1.csv
+33_1.csv
+41_1.csv
+45_1.csv
+51_1.csv
+54_1.csv
+59_1.csv
+70_1.csv
+73_1.csv
+77_1.csv
+78_1.csv
+81_1.csv
+89_1.csv
+90_1.csv
+98_1.csv
+9_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 97_1.csv
+deleting 8_1.csv
+deleting 88_1.csv
+deleting 80_1.csv
+deleting 76_1.csv
+deleting 72_1.csv
+deleting 69_1.csv
+deleting 58_1.csv
+deleting 53_1.csv
+deleting 50_1.csv
+deleting 44_1.csv
+deleting 40_1.csv
+deleting 32_1.csv
+deleting 30_1.csv
+deleting 24_1.csv
+deleting 17_1.csv
+deleting 11_1.csv
+
+sent 2624 bytes  received 499 bytes  6246.00 bytes/sec
+total size is 711  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI765054
+sudo rsync -avztcp FI765054/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI765054/ --delete-after
+building file list ... done
+./
+100_1.csv
+10_2.csv
+14_1.csv
+16_1.csv
+20_1.csv
+21_2.csv
+22_2.csv
+23_1.csv
+28_1.csv
+29_2.csv
+32_2.csv
+36_1.csv
+39_1.csv
+3_2.csv
+40_2.csv
+42_1.csv
+44_2.csv
+47_2.csv
+50_1.csv
+53_1.csv
+57_2.csv
+58_2.csv
+60_1.csv
+64_1.csv
+65_1.csv
+69_2.csv
+6_1.csv
+70_2.csv
+74_2.csv
+77_1.csv
+7_2.csv
+80_2.csv
+84_1.csv
+85_2.csv
+86_1.csv
+88_1.csv
+91_2.csv
+93_2.csv
+95_2.csv
+98_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 9_2.csv
+deleting 99_1.csv
+deleting 97_1.csv
+deleting 94_2.csv
+deleting 92_2.csv
+deleting 90_2.csv
+deleting 87_1.csv
+deleting 85_1.csv
+deleting 84_2.csv
+deleting 83_1.csv
+deleting 79_2.csv
+deleting 76_1.csv
+deleting 73_2.csv
+deleting 6_2.csv
+deleting 68_2.csv
+deleting 63_1.csv
+deleting 5_1.csv
+deleting 59_1.csv
+deleting 56_2.csv
+deleting 52_1.csv
+deleting 49_1.csv
+deleting 46_2.csv
+deleting 43_2.csv
+deleting 41_1.csv
+deleting 39_2.csv
+deleting 38_1.csv
+deleting 35_1.csv
+deleting 31_2.csv
+deleting 2_2.csv
+deleting 28_2.csv
+deleting 27_1.csv
+deleting 22_1.csv
+deleting 20_2.csv
+deleting 19_1.csv
+deleting 15_1.csv
+deleting 13_1.csv
+
+sent 4485 bytes  received 879 bytes  10728.00 bytes/sec
+total size is 1108  speedup is 0.21
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI796346
+sudo rsync -avztcp FI796346/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI796346/ --delete-after
+building file list ... done
+./
+100_1.csv
+11_2.csv
+13_1.csv
+14_1.csv
+20_2.csv
+21_2.csv
+26_1.csv
+27_2.csv
+29_2.csv
+2_1.csv
+34_1.csv
+35_1.csv
+3_2.csv
+40_1.csv
+41_2.csv
+42_2.csv
+44_1.csv
+46_1.csv
+48_1.csv
+50_2.csv
+53_2.csv
+57_1.csv
+58_1.csv
+59_1.csv
+5_1.csv
+62_2.csv
+65_1.csv
+69_2.csv
+71_2.csv
+76_1.csv
+77_2.csv
+81_2.csv
+84_1.csv
+85_2.csv
+87_1.csv
+93_2.csv
+96_2.csv
+98_2.csv
+99_1.csv
+9_2.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_1.csv
+deleting 97_2.csv
+deleting 95_2.csv
+deleting 92_2.csv
+deleting 8_2.csv
+deleting 86_1.csv
+deleting 84_2.csv
+deleting 83_1.csv
+deleting 80_2.csv
+deleting 76_2.csv
+deleting 75_1.csv
+deleting 70_2.csv
+deleting 68_2.csv
+deleting 64_1.csv
+deleting 61_2.csv
+deleting 56_1.csv
+deleting 52_2.csv
+deleting 4_1.csv
+deleting 49_2.csv
+deleting 47_1.csv
+deleting 45_1.csv
+deleting 43_1.csv
+deleting 40_2.csv
+deleting 39_1.csv
+deleting 33_1.csv
+deleting 2_2.csv
+deleting 28_2.csv
+deleting 26_2.csv
+deleting 25_1.csv
+deleting 1_1.csv
+deleting 19_2.csv
+deleting 12_1.csv
+deleting 10_2.csv
+
+sent 4490 bytes  received 879 bytes  3579.33 bytes/sec
+total size is 1106  speedup is 0.21
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI834974
+sudo rsync -avztcp FI834974/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI834974/ --delete-after
+building file list ... done
+./
+12_1.csv
+16_1.csv
+17_1.csv
+19_1.csv
+21_1.csv
+27_1.csv
+32_1.csv
+41_1.csv
+46_1.csv
+50_1.csv
+60_1.csv
+63_1.csv
+66_1.csv
+74_1.csv
+77_1.csv
+82_1.csv
+84_1.csv
+89_1.csv
+93_1.csv
+95_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 94_1.csv
+deleting 92_1.csv
+deleting 88_1.csv
+deleting 83_1.csv
+deleting 81_1.csv
+deleting 76_1.csv
+deleting 73_1.csv
+deleting 65_1.csv
+deleting 62_1.csv
+deleting 59_1.csv
+deleting 49_1.csv
+deleting 45_1.csv
+deleting 40_1.csv
+deleting 31_1.csv
+deleting 26_1.csv
+deleting 20_1.csv
+deleting 18_1.csv
+deleting 15_1.csv
+deleting 11_1.csv
+
+sent 2620 bytes  received 499 bytes  6238.00 bytes/sec
+total size is 730  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI895250
+sudo rsync -avztcp FI895250/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI895250/ --delete-after
+building file list ... done
+./
+15_1.csv
+18_1.csv
+19_1.csv
+34_1.csv
+35_1.csv
+37_1.csv
+43_1.csv
+48_1.csv
+55_1.csv
+59_1.csv
+5_1.csv
+71_1.csv
+73_1.csv
+75_1.csv
+81_1.csv
+82_1.csv
+89_1.csv
+90_1.csv
+96_1.csv
+9_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 95_1.csv
+deleting 8_1.csv
+deleting 88_1.csv
+deleting 80_1.csv
+deleting 74_1.csv
+deleting 72_1.csv
+deleting 70_1.csv
+deleting 58_1.csv
+deleting 54_1.csv
+deleting 4_1.csv
+deleting 47_1.csv
+deleting 42_1.csv
+deleting 36_1.csv
+deleting 33_1.csv
+deleting 17_1.csv
+deleting 14_1.csv
+
+sent 2619 bytes  received 499 bytes  6236.00 bytes/sec
+total size is 719  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI938950
+sudo rsync -avztcp FI938950/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI938950/ --delete-after
+building file list ... done
+./
+15_1.csv
+18_1.csv
+19_1.csv
+34_1.csv
+35_1.csv
+37_1.csv
+43_1.csv
+48_1.csv
+55_1.csv
+59_1.csv
+5_1.csv
+71_1.csv
+73_1.csv
+75_1.csv
+81_1.csv
+82_1.csv
+89_1.csv
+90_1.csv
+96_1.csv
+9_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 95_1.csv
+deleting 8_1.csv
+deleting 88_1.csv
+deleting 80_1.csv
+deleting 74_1.csv
+deleting 72_1.csv
+deleting 70_1.csv
+deleting 58_1.csv
+deleting 54_1.csv
+deleting 4_1.csv
+deleting 47_1.csv
+deleting 42_1.csv
+deleting 36_1.csv
+deleting 33_1.csv
+deleting 17_1.csv
+deleting 14_1.csv
+
+sent 2618 bytes  received 499 bytes  6234.00 bytes/sec
+total size is 712  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI94379
+sudo rsync -avztcp FI94379/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI94379/ --delete-after
+building file list ... done
+./
+16_1.csv
+17_1.csv
+23_1.csv
+24_1.csv
+31_1.csv
+35_1.csv
+37_1.csv
+48_1.csv
+52_1.csv
+60_1.csv
+61_1.csv
+68_1.csv
+6_1.csv
+70_1.csv
+76_1.csv
+79_1.csv
+80_1.csv
+88_1.csv
+91_1.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_1.csv
+deleting 90_1.csv
+deleting 87_1.csv
+deleting 78_1.csv
+deleting 75_1.csv
+deleting 69_1.csv
+deleting 67_1.csv
+deleting 5_1.csv
+deleting 59_1.csv
+deleting 51_1.csv
+deleting 47_1.csv
+deleting 36_1.csv
+deleting 34_1.csv
+deleting 30_1.csv
+deleting 22_1.csv
+deleting 15_1.csv
+
+sent 2653 bytes  received 499 bytes  6304.00 bytes/sec
+total size is 714  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI956823
+sudo rsync -avztcp FI956823/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI956823/ --delete-after
+building file list ... done
+./
+10_2.csv
+17_2.csv
+20_2.csv
+21_1.csv
+24_2.csv
+25_1.csv
+28_2.csv
+29_2.csv
+30_1.csv
+32_1.csv
+3_1.csv
+40_1.csv
+41_2.csv
+43_2.csv
+47_2.csv
+49_1.csv
+52_1.csv
+53_1.csv
+54_1.csv
+55_2.csv
+56_2.csv
+5_1.csv
+67_2.csv
+68_1.csv
+6_1.csv
+71_1.csv
+72_2.csv
+73_1.csv
+75_2.csv
+81_2.csv
+83_1.csv
+84_1.csv
+85_2.csv
+89_1.csv
+8_2.csv
+90_2.csv
+92_1.csv
+93_2.csv
+94_1.csv
+99_2.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 9_2.csv
+deleting 98_2.csv
+deleting 93_1.csv
+deleting 92_2.csv
+deleting 91_1.csv
+deleting 89_2.csv
+deleting 88_1.csv
+deleting 84_2.csv
+deleting 82_1.csv
+deleting 80_2.csv
+deleting 7_2.csv
+deleting 74_2.csv
+deleting 72_1.csv
+deleting 71_2.csv
+deleting 70_1.csv
+deleting 67_1.csv
+deleting 66_2.csv
+deleting 54_2.csv
+deleting 51_1.csv
+deleting 4_1.csv
+deleting 48_1.csv
+deleting 46_2.csv
+deleting 42_2.csv
+deleting 40_2.csv
+deleting 39_1.csv
+deleting 31_1.csv
+deleting 2_1.csv
+deleting 29_1.csv
+deleting 27_2.csv
+deleting 24_1.csv
+deleting 23_2.csv
+deleting 20_1.csv
+deleting 19_2.csv
+deleting 16_2.csv
+
+sent 4417 bytes  received 879 bytes  10592.00 bytes/sec
+total size is 1038  speedup is 0.20
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI96640
+sudo rsync -avztcp FI96640/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI96640/ --delete-after
+building file list ... done
+./
+17_1.csv
+18_1.csv
+19_1.csv
+30_1.csv
+33_1.csv
+45_1.csv
+46_1.csv
+61_1.csv
+63_1.csv
+72_1.csv
+77_1.csv
+7_1.csv
+86_1.csv
+96_1.csv
+98_1.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 97_1.csv
+deleting 95_1.csv
+deleting 85_1.csv
+deleting 76_1.csv
+deleting 71_1.csv
+deleting 6_1.csv
+deleting 62_1.csv
+deleting 60_1.csv
+deleting 44_1.csv
+deleting 32_1.csv
+deleting 29_1.csv
+deleting 16_1.csv
+
+sent 2259 bytes  received 423 bytes  5364.00 bytes/sec
+total size is 635  speedup is 0.24
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI995412
+sudo rsync -avztcp FI995412/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI995412/ --delete-after
+building file list ... done
+./
+17_1.csv
+18_1.csv
+25_1.csv
+28_1.csv
+2_1.csv
+30_1.csv
+38_1.csv
+3_1.csv
+44_1.csv
+45_1.csv
+58_1.csv
+62_1.csv
+68_1.csv
+75_1.csv
+76_1.csv
+78_1.csv
+85_1.csv
+92_1.csv
+94_1.csv
+99_1.csv
+presentation_1.csv
+presentation_2.csv
+presentation_3.csv
+presentation_4.csv
+presentation_5.csv
+deleting 98_1.csv
+deleting 93_1.csv
+deleting 91_1.csv
+deleting 84_1.csv
+deleting 77_1.csv
+deleting 74_1.csv
+deleting 67_1.csv
+deleting 61_1.csv
+deleting 57_1.csv
+deleting 43_1.csv
+deleting 37_1.csv
+deleting 29_1.csv
+deleting 27_1.csv
+deleting 24_1.csv
+deleting 1_1.csv
+deleting 16_1.csv
+
+sent 2649 bytes  received 499 bytes  6296.00 bytes/sec
+total size is 715  speedup is 0.23
+sudo chmod 777 /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI997223
+sudo rsync -avztcp FI997223/ /home/bml/emotion.becs.aalto.fi/sensations_FI/subjects/FI997223/ --delete-after
+building file list ... done
+./
+
+sent 1723 bytes  received 15 bytes  3476.00 bytes/sec
+total size is 1084  speedup is 0.62
