@@ -4,10 +4,22 @@
 scriptDirectory = [pwd '/'];
 cd ../; parentDirectory = [pwd '/'];
 cd(scriptDirectory);
-rawDataDirectory = [parentDirectory 'sensations/matlab/output/mind/'];
+exp2Directory = [parentDirectory 'sensations/matlab/output/sim/'];
+exp1Directory = [parentDirectory 'sensations/matlab/output/mind/'];
 
 % Load raw data
-load([rawDataDirectory 'mind_mds.mat'])
+load([exp1Directory 'mind_mds.mat'])
+load([exp2Directory 'sim_cluster.mat'])
+
+
+%% Table of classifications
+
+classifications.DBSCAN_class = sim_cluster.DBSCAN.class_from_mean_data';
+classifications.DBSCAN_type = sim_cluster.DBSCAN.type_from_mean_data';
+classifications.KMEANS_class = sim_cluster.KMEANS.class_from_mean_data;
+classifications.HC_class = sim_cluster.HC.class_from_mean_data;
+classifications.sensations = sensations;
+classifications = struct2table(classifications);
 
 
 %% Table of mean
@@ -54,14 +66,21 @@ dim_labels = {'BodilySensationStrength_medianZ', 'MindSensationStrength_medianZ'
 t_medianZ.Properties.VariableNames = dim_labels;
 
 
-%% Save as CSV
+%% Final table
 
-% Overall table
-t = [t_mean t_meanZ t_median t_medianZ];
+% Table of all summary statistics
+summaryStats = [t_mean t_meanZ t_median t_medianZ];
 
-% Sensation labels
-t.Sensations = sensations;
+% Add sensation labels
+summaryStats.sensations = sensations;
 
-% Export
-writetable(t, [scriptDirectory 'Exp1TestData.csv'])
+% Add classification labels
+output = innerjoin(summaryStats, classifications);
+
+
+%% Export as CSV
+
+writetable(summaryStats, [scriptDirectory 'Exp1MeanData.csv'])
+writetable(classifications, [scriptDirectory 'Exp2Classifications.csv'])
+writetable(output, [scriptDirectory 'AllDataForFig1.csv'])
 
