@@ -15,12 +15,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 We are replicating portions of the study 'Maps of subjective feelings' by Lauri Nummenmaa, Riitta Hari, Jari K. Hietanen, and Enrico Glerean. The doi for the study is found at: https://www.pnas.org/content/115/37/9198 
 
+In the study, Experiment 1 investigated 
+
+
 ## Goal of assignment
 
 Replicate tables and figures for Experiment 1 (ratings on a variety of dimensions for different subjective feelings)
 
 
-## Step 0. Clean the data
+## Step 0. Clean and import the data
 
 ```{r}
 
