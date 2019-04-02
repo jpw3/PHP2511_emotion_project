@@ -1,0 +1,59 @@
+---
+title: "Assignment 3 - First Steps"
+author:
+  - name: Jae-Young Son
+  - name: Joey Heffner
+  - name: James Wilmott
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The original study
+
+We are replicating portions of the study 'Maps of subjective feelings' by Lauri Nummenmaa, Riitta Hari, Jari K. Hietanen, and Enrico Glerean. The doi for the study is found at: https://www.pnas.org/content/115/37/9198 
+
+## Goal of assignment
+
+Replicate tables and figures for Experiment 1 (ratings on a variety of dimensions for different subjective feelings)
+
+
+## Step 0. Clean the data
+
+```{r}
+
+```
+
+
+
+## Step 1. Get data for 4 ratings of each emotion (4 basic dimensions are bodily saliency, mental saliency, emotion, and controllability) 
+
+```{r}
+
+```
+
+
+
+## Step 2. Plot the histograms from Figure 1 for Experiment 1
+
+
+```{r}
+
+```
+
+
+
+## Step 3. Run Pearson correlations without clustering to get an idea of how these dimensions of feeling are related to each other
+
+```{r}
+
+```
+
+
+
+```{r}
+'End of document'
+```
+
