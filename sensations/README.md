@@ -5,7 +5,7 @@ Code only version (most up to date version will be always here!) is available at
 Snapshot of code + data is available at Zenodo.org https://doi.org/10.5281/zenodo.1291730
 
 If you use the data or the code related to the study, please cite:
-*add citation here*
+Nummenmaa, L., Hari, R., Hietanen, J. K., & Glerean, E. (2018). Maps of subjective feelings. _Proceedings of the National Academy of Sciences of the United States of America, 115_(37), 9196-9203
 
 
 ## Project structure
@@ -13,9 +13,9 @@ If you use the data or the code related to the study, please cite:
 This project contains three folders
 
 1) www: folder for the all the web experiments 
+
 i) visual analogue scales:
 http://emotion.nbe.aalto.fi/sensations_FI/
-
 
 ii) arranging of words in space:
 http://emotion.nbe.aalto.fi/sensations_sim/
