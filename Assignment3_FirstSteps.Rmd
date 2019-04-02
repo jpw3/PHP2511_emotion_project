@@ -13,17 +13,66 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Create function for use in plotting histograms and correlations
 
-```{r}
-## Experiment 1 Replication 
+```{r, echo = FALSE}
+# Initialize environment
+libraryBooks <- c("knitr", "tidyverse", "cowplot", "gridExtra")
+invisible(lapply(libraryBooks, require, character.only = TRUE)); rm(libraryBooks)
+# library(psych)
+# dataPath <- "C:/Users/jheffner/Documents/Classes/PHP2511_emotion_project/CleanedData/Exp1TestData.csv"
+scriptPath <- dirname(rstudioapi::getSourceEditorContext()$path)
+setwd(scriptPath)
+setwd("../")
+#dataPath <- paste0(getwd(), "/Applied Regression Project/CleanedData") #Need to use this path spec for JAMES' computer
+dataPath <- paste0(getwd(), "/CleanedData") #THIS is the path specification that should be used not on James' computer
 
-library(tidyverse)
-library(psych)
-dataPath <- "/Volumes/WORK_HD/Applied Regression Project/CleanedData/Exp1MeanData.csv"
-  #"C:/Users/jheffner/Documents/Classes/PHP2511_emotion_project/CleanedData/Exp1TestData.csv"
+#### Internal functions ####
 
+## Graph aesthetics
+pnas_theme = theme_bw(base_size = 16) +
+  theme(text = element_text(size = 16), # Increase the font size
+        panel.grid = element_blank(), 
+        axis.ticks = element_blank()) # remove x & y ticks
+
+
+## Histogram function 
+emotion_hist <- function(df, colName) {
+  
+  df <- df %>% select(colName)
+  
+  # Histogram plot
+  emotion_hist_plot <- ggplot(df, aes_string(x = names(df))) + #aes_string() necessary here
+    geom_histogram(fill = "white", color = "black", binwidth = .2) + 
+    coord_cartesian(ylim = c(0, 30), xlim = c(-3, 3), expand = FALSE) +
+    pnas_theme
+  
+  return(emotion_hist_plot)
+}
+
+## Scatter plot function 
+emotion_scatter <- function(df, xName, yName) {
+  
+  df <- df %>% select(xName, yName)
+  
+  # Correlation number and significance
+  cor_value <- sprintf("%.2f", round(cor(df[,1], df[,2], method="spearman"), 2))
+  cor_test <- cor.test(df[,1], df[,2], method="spearman")$p.value
+  cor_test_text <- if_else(cor_test < 0.005, "**",
+                           if_else(cor_test < 0.05, "*", ", n.s."))
+  displaySig <- paste0(cor_value, cor_test_text)
+  
+  # Histogram plot
+  emotion_scatter_plot <- ggplot(df) + 
+    aes_string(x = names(df)[1], y = names(df)[2]) + #aes_string() necessary here
+    geom_point(size = 2) +
+    geom_smooth(method = "lm", se = FALSE, linetype = "dashed", color = "red", size = 2) +
+    coord_cartesian(ylim = c(-3, 3), xlim = c(-3, 3), expand = FALSE) +
+    annotate("text", x = -1.5, y = 2.5, label = displaySig, size = 7) +
+    pnas_theme
+  
+  return(emotion_scatter_plot)
+}
 
 ```
-
 
 ## The original study
 
@@ -54,60 +103,66 @@ For this assignment, we intend to replicate tables and figures for Experiment 1 
 Offline from this Markdown file, we have cleaned the median ratings used in the study and aggregated the data into a .csv for ease of use.
 
 ```{r}
-#path <- dirname(rstudioapi::getSourceEditorContext()$path)
-dataPath <- "/Volumes/WORK_HD/Applied Regression Project/CleanedData/Exp1MeanData.csv"
-d0 <- read.csv(dataPath, header = TRUE)
-#names(d0)
-
-d1 <- d0 %>%
-  select(BodilySensationStrength_medianZ:LastTime_medianZ)
-names(d1)
-
-# Rough rename
-d2 <- d1 %>%
-  mutate(Bodily_Saliency = (BodilySensationStrength_medianZ), 
-         Mind_Saliency = (MindSensationStrength_medianZ), 
-         Emotion = (EmotionIntensity_medianZ), 
-         Controllability = (Controllability_medianZ), 
-         Lapse = (LastTime_medianZ))
-
+# Load data
+data <- read.csv(paste0(dataPath, "/Exp1MeanData.csv"), header = TRUE) 
 ```
 
 
 ## Step 1. Get data for 4 ratings of each emotion (4 basic dimensions are bodily saliency, mental saliency, emotion, and controllability) 
 
 ```{r}
-
+data <- data %>%
+  select(BodilySensationStrength_medianZ:LastTime_medianZ) %>%
+  rename(Bodily_Saliency = BodilySensationStrength_medianZ,
+         Mind_Saliency = MindSensationStrength_medianZ,
+         Emotion = EmotionIntensity_medianZ,
+         Controllability = Controllability_medianZ,
+         Lapse = LastTime_medianZ)
 ```
 
 
-
-## Step 2. Plot the histograms from Figure 1 for Experiment 1
+## Step 2. Plot the histograms and run Pearson correlations without clustering to get an idea of how these dimensions of feeling are related to each other from Figure 1 for Experiment 1
 
 
 ```{r}
-# Histograms
-d3 <- d2 %>%
-  select(Bodily_Saliency:Lapse)
+#The goal is to re-create Figure 1 from the paper.
+#to do so, I will create a list to hold grobs and then re-arrange into the appropriate format with the gridExtra package (https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html)
 
-## Graph aesthetics
-pnas_theme = theme_bw(base_size = 16) +
-  theme(text = element_text(size = 16), # Increase the font size
-        panel.grid = element_blank(), 
-        axis.ticks = element_blank()) # remove x & y ticks
+grobs <- list(); #blank list to hold the grobs
 
-libraryBooks <- c("knitr", "tidyverse", "cowplot")
-invisible(lapply(libraryBooks, require, character.only = TRUE)); rm(libraryBooks)
+#For easy use with gridExtra, I need to generate these in the order they will appear (e.g., plot 1 is the histogram for 'Bodily Saliency', plot 2 should be correlation plot between 'Bodily Saliency' and 'Mental Saliency')
+# I will build the plots iteratively here. To do this, I'll create a list of tuples (vectors in R) that hold the strings corresponding to the xName and yName values for use in the functions we have created to build the plots. This list holds vetcors with pairs of xName,yName.
+
+names_pairs <- list(c('Bodily_Saliency', 'Bodily_Saliency'), c('Bodily_Saliency','Mind_Saliency'), 
+                    c('Mind_Saliency', 'Mind_Saliency'), c('Bodily_Saliency','Emotion'), 
+                    c('Mind_Saliency','Emotion'), c('Emotion','Emotion'), c('Bodily_Saliency','Controllability'),
+                    c('Mind_Saliency','Controllability'), c('Emotion','Controllability'), 
+                    c('Controllability','Controllability'), c('Bodily_Saliency','Lapse'),
+                    c('Mind_Saliency','Lapse'), c('Emotion','Lapse'), 
+                    c( 'Controllability','Lapse'), c('Lapse','Lapse'));
+
+#now, iterate through the name pairs. If the names match, create a histogram; if it doesn't, create a correlation plot
+for (i in 1:length(names_pairs)) {
+  #first, get the name pairs
+  names <- names_pairs[[i]];
+  
+  #next, check if the names are the same
+  name_match_bool = names[1]==names[2];
+  
+  #if this name match bool is true, I want to create a histogram of the corresponding name value
+  if (name_match_bool){grobs[[i]] <- emotion_hist(data, names[[1]])}
+  else {grobs[[i]] <- emotion_scatter(data, names[[1]], names[[2]])}; #names[[1]] is xName, names[[2]] is yName
+  
+}
+
+#Now, the grobs list holds each of the 15 figures, with the first index corresponding to the topmost plot of Figure 1 (Bodily Saliency histogram), the second index corresponding to the immediately below plot (Bodily Saliency by Mental Saliency correlation), the third index is the plot immediately to the right of the second plot (Mental Saliency histogram), etc.
+
+#The following is a quick attempt to build the configuration from the paper using gridarange from gridExtra package. This does the correct configuration, but does not allow the figures to be viewable... needs work to finish this
+grid.arrange(grobs = grobs, layout_matrix = rbind(c(1,NA,NA,NA,NA), c(2,3,NA,NA,NA), c(4,5,6,NA,NA),c(7,8,9,10,NA), c(11,12,13,14,15))); #,padding = unit(0.25, "line")
 ```
 
 
-
-## Step 3. Run Pearson correlations without clustering to get an idea of how these dimensions of feeling are related to each other
-
-```{r}
-
-```
-
+## Next steps
 
 
 ```{r}
