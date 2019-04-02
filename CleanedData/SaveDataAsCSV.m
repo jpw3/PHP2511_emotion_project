@@ -63,5 +63,5 @@ t = [t_mean t_meanZ t_median t_medianZ];
 t.Sensations = sensations;
 
 % Export
-writetable(t, 'Exp1TestData.csv')
+writetable(t, [scriptDirectory 'Exp1TestData.csv'])
 
