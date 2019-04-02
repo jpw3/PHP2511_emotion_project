@@ -1,101 +1,105 @@
-DBSCAN_class,DBSCAN_type,KMEANS_class,HC_class,sensations
-1,1,3,4,Sadness
-1,0,3,4,Anger
-2,1,1,5,Happiness
-1,1,3,4,Fear
--1,-1,1,2,Surprise
-1,0,3,4,Disgust
-2,0,1,5,Pride
-2,1,1,5,Gratefulness
--1,-1,4,5,Longing for
-1,1,3,4,Despise
-1,1,3,4,Despair
-1,1,3,4,Shame
-1,1,3,4,Guilt
-1,1,3,4,Disappointment
-2,1,1,5,Pleasure
-1,0,4,4,Nervousness
-2,0,1,5,Winning
-1,1,3,4,Losing
-2,1,1,5,Succeeding
-1,1,3,4,Failing
-2,1,1,5,Wanting
-2,1,1,5,Craving
--1,-1,4,2,Waiting
--1,-1,4,2,Self-regulation
--1,-1,4,5,Social longing
-5,0,1,2,Speaking
-2,1,1,5,Laughing
-2,1,1,5,Love
-1,1,3,4,Social exclusion
-2,1,1,5,Togetherness
-1,1,3,4,Loneliness
-1,1,3,4,Ostracism
-2,1,1,5,Closeness (in social relations)
-1,0,3,4,Hostility
-2,1,1,5,Sympathy
-1,1,3,4,Anxiety
-1,0,3,4,Panic
-1,0,3,4,Stress
-1,1,3,4,Depression
--1,-1,4,4,Mania
-5,0,5,1,Eating
-5,0,5,1,Drinking
-5,0,5,1,Hunger
-5,0,5,1,Satiation
-5,0,5,1,Thirst
--1,-1,5,3,Sweating
--1,-1,5,1,Urinating
--1,-1,5,1,Defecation
-1,0,2,3,Tiredness
--1,-1,1,2,Vitality
-1,0,3,3,Exhaustion
-5,0,5,2,Breathing
--1,-1,5,2,Heartbeat
-3,0,5,3,Drunkenness
-2,1,1,5,Sexual arousal
-2,1,1,5,Orgasm
-3,0,2,3,Shivering
-3,0,2,3,Hangover
-3,1,2,3,Heartburn
--1,-1,2,3,Suffocation
-2,0,1,5,Relaxation
--1,-1,1,2,Sleeping
-4,1,1,2,Thinking
-4,1,1,2,Remembering
-4,1,1,2,Attending
--1,-1,4,2,Forgetting
-4,1,1,2,Reading
-4,1,1,2,Imagining
-4,0,1,2,Daydreaming
-4,1,1,2,Inferring
-4,1,1,2,Reasoning
-4,1,4,2,Estimating
-4,1,1,2,Being conscious
-4,1,1,2,Memorizing
-4,1,1,2,Recognition
-4,1,1,2,Recollection
-3,1,2,3,Having flu
-3,1,2,3,Having fever
-3,1,2,3,Having stomach flu
-3,1,2,3,Having cold
-3,1,2,3,Having headache
-3,1,2,3,Feeling nauseous
-3,1,2,3,Having toothache
-3,1,2,3,Coughing
-3,0,2,3,Sneezing
-3,1,2,3,Aching
--1,-1,5,2,Being dazzled
-5,0,1,2,Seeing
-5,0,1,2,Hearing
-2,1,1,5,Feeling touch
-5,0,5,2,Smelling
-5,1,5,1,Tasting
-3,1,2,3,Itching
--1,-1,2,3,Numbness
-3,1,2,3,Feeling pain
--1,-1,5,3,Hotness
--1,-1,2,3,Coldness
-3,1,2,3,Dizziness
--1,-1,1,2,Movement
--1,-1,4,4,Acceleration
+DBSCAN_class,DBSCAN_type,KMEANS_class,HC_class,CODED_FROM_PAPER,sensations
+1,1,3,4,1,Sadness
+1,0,3,4,1,Anger
+2,1,1,5,2,Happiness
+1,1,3,4,1,Fear
+-1,-1,1,2,-1,Surprise
+1,0,3,4,1,Disgust
+2,0,1,5,2,Pride
+2,1,1,5,2,Gratefulness
+-1,-1,4,5,-1,Longing for
+1,1,3,4,1,Despise
+1,1,3,4,1,Despair
+1,1,3,4,1,Shame
+1,1,3,4,1,Guilt
+1,1,3,4,1,Disappointment
+2,1,1,5,2,Pleasure
+1,0,4,4,1,Nervousness
+2,0,1,5,2,Winning
+1,1,3,4,1,Losing
+2,1,1,5,2,Succeeding
+1,1,3,4,1,Failing
+2,1,1,5,2,Wanting
+2,1,1,5,2,Craving
+-1,-1,4,2,-1,Waiting
+-1,-1,4,2,-1,Self-regulation
+-1,-1,4,5,-1,Social longing
+5,0,1,2,5,Speaking
+2,1,1,5,2,Laughing
+2,1,1,5,2,Love
+1,1,3,4,1,Social exclusion
+2,1,1,5,2,Togetherness
+1,1,3,4,1,Loneliness
+1,1,3,4,1,Ostracism
+2,1,1,5,2,Closeness (in social relations)
+1,0,3,4,1,Hostility
+2,1,1,5,2,Sympathy
+1,1,3,4,1,Anxiety
+1,0,3,4,1,Panic
+1,0,3,4,1,Stress
+1,1,3,4,1,Depression
+-1,-1,4,4,-1,Mania
+5,0,5,1,5,Eating
+5,0,5,1,5,Drinking
+5,0,5,1,5,Hunger
+5,0,5,1,5,Satiation
+5,0,5,1,5,Thirst
+-1,-1,5,3,-1,Sweating
+-1,-1,5,1,-1,Urinating
+-1,-1,5,1,-1,Defecation
+1,0,2,3,1,Tiredness
+-1,-1,1,2,-1,Vitality
+1,0,3,3,1,Exhaustion
+5,0,5,2,5,Breathing
+-1,-1,5,2,-1,Heartbeat
+3,0,5,3,3,Drunkenness
+2,1,1,5,2,Sexual arousal
+2,1,1,5,2,Orgasm
+3,0,2,3,3,Shivering
+3,0,2,3,3,Hangover
+3,1,2,3,3,Heartburn
+-1,-1,2,3,-1,Suffocation
+2,0,1,5,2,Relaxation
+-1,-1,1,2,-1,Sleeping
+4,1,1,2,4,Thinking
+4,1,1,2,4,Remembering
+4,1,1,2,4,Attending
+-1,-1,4,2,-1,Forgetting
+4,1,1,2,4,Reading
+4,1,1,2,4,Imagining
+4,0,1,2,4,Daydreaming
+4,1,1,2,4,Inferring
+4,1,1,2,4,Reasoning
+4,1,4,2,4,Estimating
+4,1,1,2,4,Being conscious
+4,1,1,2,4,Memorizing
+4,1,1,2,4,Recognition
+4,1,1,2,4,Recollection
+3,1,2,3,3,Having flu
+3,1,2,3,3,Having fever
+3,1,2,3,3,Having stomach flu
+3,1,2,3,3,Having cold
+3,1,2,3,3,Having headache
+3,1,2,3,3,Feeling nauseous
+3,1,2,3,3,Having toothache
+3,1,2,3,3,Coughing
+3,0,2,3,3,Sneezing
+3,1,2,3,3,Aching
+-1,-1,5,2,-1,Being dazzled
+5,0,1,2,5,Seeing
+5,0,1,2,5,Hearing
+2,1,1,5,2,Feeling touch
+5,0,5,2,5,Smelling
+5,1,5,1,5,Tasting
+3,1,2,3,3,Itching
+-1,-1,2,3,-1,Numbness
+3,1,2,3,3,Feeling pain
+-1,-1,5,3,-1,Hotness
+-1,-1,2,3,-1,Coldness
+3,1,2,3,3,Dizziness
+-1,-1,1,2,-1,Movement
+-1,-1,4,4,-1,Acceleration
+,,,,,
+,,,,,
+,,,,SCALE DETERMINED FROM CROSS REFERENCE,
+,,,,"1 = Neg; 2 = Pos; 3 = Ill, 4 = Cog; 5 = Hom., -1 = Between",
