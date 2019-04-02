@@ -27,6 +27,11 @@ Replicate tables and figures for Experiment 1 (ratings on a variety of dimension
 
 ```{r}
 
+path <- dirname(rstudioapi::getSourceEditorContext()$path)
+
+libraryBooks <- c("knitr", "tidyverse", "cowplot")
+invisible(lapply(libraryBooks, require, character.only = TRUE)); rm(libraryBooks)
+
 ```
 
 
