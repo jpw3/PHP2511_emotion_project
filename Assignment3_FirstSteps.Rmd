@@ -11,29 +11,67 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Create function for use in plotting histograms and correlations
+
+```{r}
+## Experiment 1 Replication 
+
+library(tidyverse)
+library(psych)
+dataPath <- "/Volumes/WORK_HD/Applied Regression Project/CleanedData/Exp1MeanData.csv"
+  #"C:/Users/jheffner/Documents/Classes/PHP2511_emotion_project/CleanedData/Exp1TestData.csv"
+
+
+```
+
+
 ## The original study
 
 We are replicating portions of the study 'Maps of subjective feelings' by Lauri Nummenmaa, Riitta Hari, Jari K. Hietanen, and Enrico Glerean. The doi for the study is found at: https://www.pnas.org/content/115/37/9198 
 
-In the study, Experiment 1 investigated 
+The goal of this study was to elucidateorganizing principles of subjective experiences of emotions across individuals, and whether and how emotions can be grouped together to form broad categories of emotions.
+
+In Experiment 1 specifically, the authors' aim was to map the basic dimensions of emotional states. To do so, the authors presented 339 volunteers with 100 words expressing core feelings and bodily processes and asked to rate words using 5 differenct scales corresponding to the following 5 basic dimensions: 
+
+1. bodily saliency
+2. mental saliency
+3. emotion
+4. controllability
+5. lapse (relative frequency of experiencing each emotion)
+
+After collecting the raw data, the authors investigated how each basic dimension related to the others by using Spearman's correlations to assess the relationships across words. They further assessed the prevalence of ratings across words for each basic dimension using histograms.
+
+For their analyses, the authors used z-scored median ratings of the distributions of ratings for each word across individuals. 
 
 
 ## Goal of assignment
 
-Replicate tables and figures for Experiment 1 (ratings on a variety of dimensions for different subjective feelings)
+For this assignment, we intend to replicate tables and figures for Experiment 1 (ratings on a variety of dimensions for different subjective feelings). This step involves cleaning the data into a format that we can use for our replication purposes, an important and time-consuming process.
 
 
 ## Step 0. Clean and import the data
 
+Offline from this Markdown file, we have cleaned the median ratings used in the study and aggregated the data into a .csv for ease of use.
+
 ```{r}
+#path <- dirname(rstudioapi::getSourceEditorContext()$path)
+dataPath <- "/Volumes/WORK_HD/Applied Regression Project/CleanedData/Exp1MeanData.csv"
+d0 <- read.csv(dataPath, header = TRUE)
+#names(d0)
 
-path <- dirname(rstudioapi::getSourceEditorContext()$path)
+d1 <- d0 %>%
+  select(BodilySensationStrength_medianZ:LastTime_medianZ)
+names(d1)
 
-libraryBooks <- c("knitr", "tidyverse", "cowplot")
-invisible(lapply(libraryBooks, require, character.only = TRUE)); rm(libraryBooks)
+# Rough rename
+d2 <- d1 %>%
+  mutate(Bodily_Saliency = (BodilySensationStrength_medianZ), 
+         Mind_Saliency = (MindSensationStrength_medianZ), 
+         Emotion = (EmotionIntensity_medianZ), 
+         Controllability = (Controllability_medianZ), 
+         Lapse = (LastTime_medianZ))
 
 ```
-
 
 
 ## Step 1. Get data for 4 ratings of each emotion (4 basic dimensions are bodily saliency, mental saliency, emotion, and controllability) 
@@ -48,7 +86,18 @@ invisible(lapply(libraryBooks, require, character.only = TRUE)); rm(libraryBooks
 
 
 ```{r}
+# Histograms
+d3 <- d2 %>%
+  select(Bodily_Saliency:Lapse)
 
+## Graph aesthetics
+pnas_theme = theme_bw(base_size = 16) +
+  theme(text = element_text(size = 16), # Increase the font size
+        panel.grid = element_blank(), 
+        axis.ticks = element_blank()) # remove x & y ticks
+
+libraryBooks <- c("knitr", "tidyverse", "cowplot")
+invisible(lapply(libraryBooks, require, character.only = TRUE)); rm(libraryBooks)
 ```
 
 
