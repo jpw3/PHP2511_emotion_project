@@ -2,7 +2,7 @@
 
 % Define data directories relative to script location
 scriptDirectory = [pwd '/'];
-cd ../; parentDirectory = [pwd '/'];
+cd ../; cd ../; parentDirectory = [pwd '/'];
 cd(scriptDirectory);
 exp2Directory = [parentDirectory 'sensations/matlab/output/sim/'];
 exp1Directory = [parentDirectory 'sensations/matlab/output/mind/'];
@@ -74,8 +74,11 @@ summaryStats = [t_mean t_meanZ t_median t_medianZ];
 % Add sensation labels
 summaryStats.sensations = sensations;
 
-% Add classification labels
+% Add classification IDs to summary stats
 output = innerjoin(summaryStats, classifications);
+
+% Add classification labels
+
 
 
 %% Export as CSV

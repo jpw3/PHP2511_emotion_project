@@ -1,0 +1,101 @@
+DBSCAN_class,DBSCAN_type,KMEANS_class,HC_class,sensations,DBSCAN_labels
+-1,-1,1,2,Surprise,Between
+-1,-1,4,5,Longing for,Between
+-1,-1,4,2,Waiting,Between
+-1,-1,4,2,Self-regulation,Between
+-1,-1,4,5,Social longing,Between
+-1,-1,4,4,Mania,Between
+-1,-1,5,3,Sweating,Between
+-1,-1,5,1,Urinating,Between
+-1,-1,5,1,Defecation,Between
+-1,-1,1,2,Vitality,Between
+-1,-1,5,2,Heartbeat,Between
+-1,-1,2,3,Suffocation,Between
+-1,-1,1,2,Sleeping,Between
+-1,-1,4,2,Forgetting,Between
+-1,-1,5,2,Being dazzled,Between
+-1,-1,2,3,Numbness,Between
+-1,-1,5,3,Hotness,Between
+-1,-1,2,3,Coldness,Between
+-1,-1,1,2,Movement,Between
+-1,-1,4,4,Acceleration,Between
+1,1,3,4,Sadness,NegEmo
+1,0,3,4,Anger,NegEmo
+1,1,3,4,Fear,NegEmo
+1,0,3,4,Disgust,NegEmo
+1,1,3,4,Despise,NegEmo
+1,1,3,4,Despair,NegEmo
+1,1,3,4,Shame,NegEmo
+1,1,3,4,Guilt,NegEmo
+1,1,3,4,Disappointment,NegEmo
+1,0,4,4,Nervousness,NegEmo
+1,1,3,4,Losing,NegEmo
+1,1,3,4,Failing,NegEmo
+1,1,3,4,Social exclusion,NegEmo
+1,1,3,4,Loneliness,NegEmo
+1,1,3,4,Ostracism,NegEmo
+1,0,3,4,Hostility,NegEmo
+1,1,3,4,Anxiety,NegEmo
+1,0,3,4,Panic,NegEmo
+1,0,3,4,Stress,NegEmo
+1,1,3,4,Depression,NegEmo
+1,0,2,3,Tiredness,NegEmo
+1,0,3,3,Exhaustion,NegEmo
+2,1,1,5,Happiness,PosEmo
+2,0,1,5,Pride,PosEmo
+2,1,1,5,Gratefulness,PosEmo
+2,1,1,5,Pleasure,PosEmo
+2,0,1,5,Winning,PosEmo
+2,1,1,5,Succeeding,PosEmo
+2,1,1,5,Wanting,PosEmo
+2,1,1,5,Craving,PosEmo
+2,1,1,5,Laughing,PosEmo
+2,1,1,5,Love,PosEmo
+2,1,1,5,Togetherness,PosEmo
+2,1,1,5,Closeness (in social relations),PosEmo
+2,1,1,5,Sympathy,PosEmo
+2,1,1,5,Sexual arousal,PosEmo
+2,1,1,5,Orgasm,PosEmo
+2,0,1,5,Relaxation,PosEmo
+2,1,1,5,Feeling touch,PosEmo
+3,0,5,3,Drunkenness,Illness
+3,0,2,3,Shivering,Illness
+3,0,2,3,Hangover,Illness
+3,1,2,3,Heartburn,Illness
+3,1,2,3,Having flu,Illness
+3,1,2,3,Having fever,Illness
+3,1,2,3,Having stomach flu,Illness
+3,1,2,3,Having cold,Illness
+3,1,2,3,Having headache,Illness
+3,1,2,3,Feeling nauseous,Illness
+3,1,2,3,Having toothache,Illness
+3,1,2,3,Coughing,Illness
+3,0,2,3,Sneezing,Illness
+3,1,2,3,Aching,Illness
+3,1,2,3,Itching,Illness
+3,1,2,3,Feeling pain,Illness
+3,1,2,3,Dizziness,Illness
+4,1,1,2,Thinking,Cognition
+4,1,1,2,Remembering,Cognition
+4,1,1,2,Attending,Cognition
+4,1,1,2,Reading,Cognition
+4,1,1,2,Imagining,Cognition
+4,0,1,2,Daydreaming,Cognition
+4,1,1,2,Inferring,Cognition
+4,1,1,2,Reasoning,Cognition
+4,1,4,2,Estimating,Cognition
+4,1,1,2,Being conscious,Cognition
+4,1,1,2,Memorizing,Cognition
+4,1,1,2,Recognition,Cognition
+4,1,1,2,Recollection,Cognition
+5,0,1,2,Speaking,Homeostasis
+5,0,5,1,Eating,Homeostasis
+5,0,5,1,Drinking,Homeostasis
+5,0,5,1,Hunger,Homeostasis
+5,0,5,1,Satiation,Homeostasis
+5,0,5,1,Thirst,Homeostasis
+5,0,5,2,Breathing,Homeostasis
+5,0,1,2,Seeing,Homeostasis
+5,0,1,2,Hearing,Homeostasis
+5,0,5,2,Smelling,Homeostasis
+5,1,5,1,Tasting,Homeostasis
