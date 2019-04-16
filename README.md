@@ -13,3 +13,7 @@ Steps to do this -
 Next steps needed after this assignment - 
 
 0. Map the topographical space for bodily emotions using a density based clustering and t-distributed stochastic neighbor embedding (clustering algorithms; alternative would be a KNN approach, possibly for the extension part of this project?)
+
+To-do Assignment #4 'Second Steps', due 4/17/2019
+
+Add in replication code for Experiment 2 from the paper to the Markdown file for this assignment (titled Project_Pass2 in 'Analysis' folder of shared git folder). Go over the document to ensure we're all on the same page, then Knit and submit.
