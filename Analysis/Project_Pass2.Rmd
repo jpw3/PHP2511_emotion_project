@@ -1,0 +1,62 @@
+---
+title: "Assignment 4 - Second Steps"
+author:
+  - Joey Heffner
+  - Jae-Young Son
+  - James Wilmott
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The original study
+
+As a brief reminder, we are replicating portions of the study 'Maps of subjective feelings' by Lauri Nummenmaa, Riitta Hari, Jari K. Hietanen, and Enrico Glerean. This study can be found at: https://www.pnas.org/content/115/37/9198
+
+The goal of this study was to elucidate organizing principles of subjective experiences of emotions across individuals, and to uncover whether/how emotions can be grouped together to form broad categories of subjective experience. 
+
+Our previous efforts replicated Experient 1 from their study, including replicating Figure 1 from the paper. As a brief reminder, participants were presented with 100 words that corresponded to core bodily or emotional states and asked to rate them according to 5 dimensions that the authors pre-determined were of interest. For a more in-depth description of that experiment and our efforts to replicate their analysis, please check our previous assignment.
+
+For this assignment, we will continue our efforts at replicating portions of the study with Experiment 2.
+
+
+## Continuation of replication 
+
+In Experiment 2, the authors assessed the similarity of emotional and bodily states across individuals. To do so, they had participants perform a classifcation task where they arranged each of the 100 words together. In brief, each of the 100 words were randomly arranged on the left side of the screen. Participants had to drag and drop each word into a box on the right hand side and arrange the words "so that states feeling similar would be close to each other"(p. 9202, Nummenmaa et al. (2018)). They then extracted pairwise similarities between words by determining the (scaled) Euclidean distance between each possible set of words. These similarities across participants were highly reliable (mean Spearman's correlation split-half reliability of 0.94 across 5000 random iterations, Figure S3. in Nummenmaa et al. (2018)). The mean distance matrix was computed by averaging across participants.The resulting distance matrix represents the group-level degree of similarity between each of the 100 words. 
+
+The authors set out to determine if whether and how the similarity matrix can reveal underlying clusters of emotions that might represent a structure to how we experience emotional states. To do so, they used a clustering algorithm (density based spatial clustering of applications with noise, or DBSCAN), which resulted in 5 distinct clusters of states, which they termed the following:
+
+1. Positive emotions
+2. Negative emotions
+3. Illnesses
+4. Homeostasis
+5. Cognition
+
+Other words that were not assigned to these clusters were labeled 'Unspecific'.
+
+To graphically determine how these words clustered together, the authors subjected the output of the DBSCAN clustering analysis to method for visualization (t-distributed stochastic neighbor embedding, or t-SNE). The result of that visualization is Figure 2 in Nummenmaa et al. (2018).
+
+Here, we attempt to replicate the DBSCAN clustering analysis and t-SNE visualization displayed in Figure 2:
+
+```{r}
+#insert replication code here
+```
+
+
+## Plans for extension of the study
+
+For the extentions portion of the project, our group will accomplish 2 aims:
+
+#1. Assess whether the DBSCAN clustering method can be replicated in R
+
+Notably, the authors of this study used the MATLAB technical computing software when clustering using DBSCAN. We aim to replicate their findings through implementation of DBSCAN in R. Accomplishing this aim will tell us whether their findings are geenralizable across different software implementations of the DBSCAN approach, which is what we expect to occur.
+
+#2. Compare the results of alternative clustering algorithms to the author's findings
+
+The authors chose to use a DBSCAN clustering method to assess the underlying structure of the emotional spectrum. We will use alternative clustering algorithms in place of the DBSCAN method and compare the results of these clustering techniques to the author's findings. Accomplishing this aim will tell us how dependant the author's results are on their choice of analysis method, and whether and how different clustering techniques diffrentially relate emotions. 
+
+
+```{r ref.label=knitr::all_labels(), echo = T, eval = F}
+```
