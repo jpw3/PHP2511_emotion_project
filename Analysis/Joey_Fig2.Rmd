@@ -1,0 +1,61 @@
+---
+title: "Figure 2 Replication"
+author: "Joey Heffner"
+date: "April 16, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Figure 2 Replication
+In Experiment 2, authors asked participants to make similarity judgments between pairwise combinations of 100 feelings. They use these ratings to create an average dissimilarity matrix across participants for each of the pairwise ratings. Figure 2 is a representation of "feeling space" and this two-dimensional map is based on the average distance matrix between feelings arranged by t-SNE and clustered with DBSCAN. 
+
+For our first approach, we used DBSCAN on the dissimilarity matrix and visualized it using PCA (a linear dimensionality reduction technique). 
+
+## Density-based spatial clustering of applications with nosie (DBSCAN)
+DBSCAN is a density-based clustering algorithm which can identify irregularly shaped clusters in datasets with noise or outliers. Compared to other unsupervised machine learning approaches (e.g., K-means), DBSCAN 1) does not require a specific number of clusters, 2) can find irregularly-shaped clusers, and 3) can identify outliers. 
+
+There are two parameters for DBSCAN: 
+1) **epsilon** (`eps`): defines the radius of a neighborhood around a specific point
+2) **minimum points** (`MinPts`): defines the minimum number of neighbors with "eps" radius
+
+```{r}
+# Load data
+d1 <- read.csv("C:/Users/jheffner/Downloads/DissimilarityMatrixForFig2 (1).csv", header = TRUE)
+
+# Determine optimal `eps` (FIX UNCLEAR HOW THIS WORKS)
+library(dbscan)
+dbscan::kNNdistplot(d1, k = 5)
+abline(h = 0.26, lty = 2)
+
+# DBSCAN
+library(fpc)
+db <- fpc::dbscan(d1, eps = 0.2565, MinPts = 5, method = "dist")
+print(db)
+
+# Predict class labels of our data
+predict(db2, d1) # specifies the cluster given to each 'feeling'
+
+# Compare our DBSCAN results with their DBSCAN results
+d2 <- read.csv("C:/Users/jheffner/Downloads/DissimilarityMatrixForFig2 (1).csv", header = TRUE)
+
+# Graph
+library(factoextra)
+fviz_cluster(db, d1, geom = "point", ellipse.type = "norm")
+```
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
