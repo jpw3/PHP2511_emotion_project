@@ -1,12 +1,32 @@
 ---
 title: "Figure 2 Replication"
-author: "Joey Heffner"
+author:
+  - Joey Heffner
+  - Jae-Young Son
+  - James Wilmott
 date: "April 16, 2019"
 output: html_document
 ---
 
+# Initialize working environment
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, message=FALSE}
+# Initialize environment
+libraryBooks <- c("knitr", "tidyverse", "cowplot", "fpc", "dbscan")
+invisible(lapply(libraryBooks, require, character.only = TRUE)); rm(libraryBooks)
+# scriptPath <- dirname(rstudioapi::getSourceEditorContext()$path)
+# dataPath <- paste0(scriptPath, "/AllDataForFig1.csv")
+
+
+# Graph aesthetics
+pnas_theme = theme_bw(base_size = 10) +
+  theme(text = element_text(size = 10), # Increase the font size
+        panel.grid = element_blank(), 
+        axis.ticks = element_blank()) # remove x & y ticks
 ```
 
 # Figure 2 Replication
@@ -27,8 +47,9 @@ d1 <- read.csv("C:/Users/jheffner/Downloads/DissimilarityMatrixForFig2 (1).csv",
 
 # Determine optimal `eps` (FIX UNCLEAR HOW THIS WORKS)
 library(dbscan)
-dbscan::kNNdistplot(d1, k = 5)
+dbscan::kNNdistplot(d1[,-1], k = 5) # remember to remove Row col
 abline(h = 0.26, lty = 2)
+abline(h = .7, lty = 3)
 
 # DBSCAN
 library(fpc)
@@ -36,26 +57,111 @@ db <- fpc::dbscan(d1, eps = 0.2565, MinPts = 5, method = "dist")
 print(db)
 
 # Predict class labels of our data
-predict(db2, d1) # specifies the cluster given to each 'feeling'
+predLabels <- predict(db2, d1) # specifies the cluster given to each 'feeling'
+feelingNames <- colnames(d1[1,c(-1)])
+
+predDF <- data.frame(DBSCAN_labels = predLabels, feeling_labels = feelingNames)
 
 # Compare our DBSCAN results with their DBSCAN results
-d2 <- read.csv("C:/Users/jheffner/Downloads/DissimilarityMatrixForFig2 (1).csv", header = TRUE)
+d2 <- read.csv("C:/Users/jheffner/Documents/Classes/PHP2511_emotion_project/CleanedData/Exp2Classifications.csv", header = TRUE)
+
+d3 <- d2 %>% filter(!is.na(DBSCAN_class)) # remove na from bottom
+
+# Need to check if emotions match using a join
+
+d3$DBSCAN_class[d3$DBSCAN_class == -1] <- 0 # recode
+
+cor(predDF$DBSCAN_labels, d3$DBSCAN_class)
 
 # Graph
 library(factoextra)
 fviz_cluster(db, d1, geom = "point", ellipse.type = "norm")
 ```
 
-```{r cars}
-summary(cars)
+## t-SNA
+Can we use the author's t-SNA factor loadings and classify the feelings similarly?
+
+```{r}
+d4 <- read_csv("C:/Users/jheffner/Downloads/Fig2_tSNE_coords.csv")
+
+d5 <- d4 %>% select(Var1, Var2)
+
+# Trying to predict classifications (how does this work??)
+predLabels <- predict(db2, d5) 
+
+d5$DBSCAN_R <- as.factor(predict(db2, d5))
+
+# Specify color labels
+feeling_colors <- c("#636363", "#3182bd", "#de2d26", "#756bb1",                     "#31a354", "#e6550d")
+
+Fig2_rep <- ggplot(d5, aes(x = Var1, y = Var2, group = DBSCAN_R, color = DBSCAN_R)) + 
+  geom_point(size = 2) +
+  scale_color_manual(name="Classification",
+                     labels=c("Unclassified",
+                              "Negative emotions",
+                              "Positive emotions",
+                              "Illnesses",
+                              "Cognitive processes",
+                              "Homeostatic states"),
+                     values=feeling_colors) +
+  xlab("t-SNE1") +
+  ylab("t-SNE2") +
+  pnas_theme +
+  guides(color = guide_legend(override.aes = list(size=4))) +
+  theme(legend.title = element_text(size = 12),
+        legend.text = element_text(size = 10))
+Fig2_rep
+
 ```
 
-## Including Plots
+## Our own t-SNE loadings
+Note: this did NOT work yet haha. Still some bugs somewhere
 
-You can also embed plots, for example:
+Also it keeps changing each run? Very confused
+```{r}
+library(Rtsne)
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+feeling_labels <- d1$Row
+d1$Row <- as.factor(d1$Row)
+
+feeling_colors <- rainbow(length(unique(d1$Row)))
+names(feeling_colors) <- unique(d1$Row)
+
+## Executing algorithm
+tsne <- Rtsne(d1[,-1], dims = 2, perplexity = 30, verbose = TRUE, max_iter = 500, is_distance = TRUE) # distance matrix!
+exeTimeTsne <- system.time(Rtsne(d1[,-1], dims = 2, perplexity = 30, verbose = TRUE, max_iter = 500, is_distance = TRUE))
+
+## Plotting
+plot(tsne$Y, t = 'n', main = "tsne")
+text(tsne$Y, labels = d1$Row, col = feeling_colors[d1$Row])
+
+## Combining t-SNE with DBSCAN
+d6 <- as.data.frame(tsne$Y)
+d6$feelings <- d1$Row
+
+# Trying to predict classifications (how does this work??)
+predLabels <- predict(db2, d6[,-3])
+
+d6$DBSCAN_R <- as.factor(predict(db2, d6[,-3]))
+
+# Specify color labels
+feeling_colors <- c("#636363", "#3182bd", "#de2d26", "#756bb1",                     "#31a354", "#e6550d")
+
+Fig2_rep <- ggplot(d6, aes(x = V1, y = V2, group = DBSCAN_R, color = DBSCAN_R)) + 
+  geom_point(size = 2) +
+  scale_color_manual(name="Classification",
+                     labels=c("Unclassified",
+                              "Negative emotions",
+                              "Positive emotions",
+                              "Illnesses",
+                              "Cognitive processes",
+                              "Homeostatic states"),
+                     values=feeling_colors) +
+  xlab("t-SNE1") +
+  ylab("t-SNE2") +
+  pnas_theme +
+  guides(color = guide_legend(override.aes = list(size=4))) +
+  theme(legend.title = element_text(size = 12),
+        legend.text = element_text(size = 10))
+Fig2_rep
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
