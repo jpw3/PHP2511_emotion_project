@@ -45,11 +45,27 @@ There are two parameters for DBSCAN:
 # Load data
 d1 <- read.csv("C:/Users/jheffner/Downloads/DissimilarityMatrixForFig2 (1).csv", header = TRUE)
 
-# Determine optimal `eps` (FIX UNCLEAR HOW THIS WORKS)
+# Determine optimal `eps` (look for 'elbows' in KNN plot with the same number of MinPts
 library(dbscan)
 dbscan::kNNdistplot(d1[,-1], k = 5) # remember to remove Row col
 abline(h = 0.26, lty = 2)
 abline(h = .7, lty = 3)
+
+# DBSCAN
+# fpc has a dbscan() function which works like follows
+# fpc::dbscan(data, eps, MinPts = 5, scale = FALSE, method = c("hybrid", "raw", "dist"))
+# data = data matrix, dataframe, or dissimilarity matrix (specify method = "dist"). Euclidean distances will be used as default
+# eps = reachability maximum distance
+# MinPts: Reachability minimum number of points
+# scale: if TRUE data will be scaled
+# method: 
+#   hybrid: expects raw data, calculates partial distance matrices
+#   raw: expects raw data
+#   dist: treats data as distance matrix
+
+# DBSCAN clusters require a minimum number of points (MinPts) within a maximum distance (eps) around one of its members
+# any point within eps around any point which satisfies conditions is a cluster member (recursively) 
+# some points may not belong to any clusers and are treated as noise
 
 # DBSCAN
 library(fpc)
