@@ -1,0 +1,59 @@
+---
+title: "Assignment 5 - Final Steps"
+author:
+  - Joey Heffner
+  - Jae-Young Son
+  - James Wilmott
+output: pdf_document
+---
+
+# Overview
+
+We are replicating portions of the study 'Maps of subjective feelings' by Lauri Nummenmaa, Riitta Hari, Jari K. Hietanen, and Enrico Glerean. This study can be found at: https://www.pnas.org/content/115/37/9198. The goal of this study was to elucidate organizing principles of subjective experiences of emotions across individuals, and to uncover whether/how emotions can be grouped together to form broad categories of subjective experience. 
+
+Our previous efforts have replicated aspects of Experiment 1 and 2.
+
+## Experiment 1
+
+In Experiment 1, the authors' specific aim was to map the basic dimensions of emotional states. To do so, the authors presented 339 volunteers with 100 words expressing core feelings and bodily processes. The volunteers were then asked to rate these words using five different scales corresponding to the following five basic dimensions:
+
+1. bodily saliency
+2. mental saliency
+3. emotional intensity
+4. controllability
+5. lapse (relative frequency of experiencing each emotion)
+
+After collecting the data, the authors investigated whether each basic dimension is related to the others, as visualized in Figure 1. This figure depicts the results of two analyses. First, as shown by the scatterplots, the authors used Spearman's correlations to assess how strongly each word's emotion ratings are associated with the corresponding ratings of all other words. Second, as shown by the histograms, the authors assessed the distributional spread of the words' ratings for each of the five basic dimensions. For these analyses, the authors took all volunteers' ratings, calculated the median rating for each of the 100 words, then z-scored those ratings.
+
+Figure 1 depicts the results of Experiment 1. This figure has been included in a previous assignment (Assignment 3 - First Steps).
+
+## Experiment 2
+
+In Experiment 2, the authors assessed the similarity of emotional and bodily states across individuals. Participants were asked to make similarity judgments between pairwise combinations of 100 feelings. The authors then extracted pairwise similarities between words by determining the (scaled) Euclidean distance between each possible set of words, thereby creating an average similarity matrix across participants for each of the pairwise ratings. These similarities across participants were highly reliable (mean Spearman's correlation split-half reliability of 0.94 across 5000 random iterations, Figure S3 in Nummenmaa et al. 2018). The mean distance matrix was computed by averaging across participants, and therefore represents the group-level degree of similarity between each of the 100 words.
+
+Using this similarity matrix, the authors set out to determine whether unsupervised learning techniques can reveal underlying clusters of emotions, which represent structure in how people experience emotional states. To do so, they used the DBSCAN clustering algorithm (density based spatial clustering of applications with noise), which resulted in 5 distinct clusters of states, which they termed the following:
+
+1. Positive emotions
+2. Negative emotions
+3. Illnesses
+4. Homeostasis
+5. Cognition
+
+Other words that were not assigned to these clusters were labeled 'Unspecific'.
+
+To graphically communicate how the 100 words clustered together, the authors used a dimensionality reduction technique known as t-SNE (t-distributed stochastic neighbor embedding), which is *conceptually* akin to a nonlinear PCA (principal components analysis). Briefly, the goal of t-SNE is to represent similarity/dissimilarity in high-dimensional space by placing points closer together/further apart in 2D space. Importantly, the use of t-SNE in this experiment was *not* an analytical technique, but instead a convenient method for visualizing similarity/dissimilarity in high-dimensional space. The authors then colored the points according to the clusters identified by the DBSCAN algorithm. The ultimate result of this visualization is Figure 2. Therefore, Figure 2 is a two-dimensional representation of "feeling space", which is essentially a map between feelings arranged by t-SNE and clustered with DBSCAN.
+
+Figure 2 depicts the results of the authors' DBSCAN clustering analysis and t-SNE visualization. This figure has been included in a previous assignment (Assignment 4 - Second Steps).
+
+## Extension of Experiment 2
+
+In this assignment, we are attempting to extend the analyses conducted by Nummenmaa et al. (2018) in Experiment 2. Their analysis centered around the use of a specific clustering method, DBSCAN, in determing five distinct clusters of states (listed in more detail in the above section). We sought to determine how sensitive their results are to the specific choice of analysis method by assessing how the clustering of words change when using alternative clustering techniques. Specifically, we will cluster words using two methods: K-means clustering and hierarchical clustering. 
+
+In their open access data set, Nummenmaa et al. (2018) include results from running their own K-means clustering and hierarchical clustering analyses. These analyses were not included in their published paper or supplement. We use the output of these analyses to plot the cluster structure below.
+
+
+
+```{r}
+'End of document'
+```
+
